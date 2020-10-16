@@ -1,0 +1,57 @@
+ body {
+     background-color: #4Ec274;
+ }
+ 
+ #heading {
+     background: white;
+     padding: 12px;
+     height: 200px;
+     margin-bottom: 10px;
+ }
+ 
+ #headone {
+     font-size: 80px;
+     text-align: center;
+     margin: 5px;
+     height: 100px;
+ }
+ 
+ #tabs {
+     font-size: 30px;
+     padding: 12px;
+     height: 150px;
+     width: auto;
+     display: flex;
+     align-items: center;
+ }
+ 
+ #tabs a {
+     border: #4Ec274;
+     color: black;
+     background-color: #4Ec274;
+     padding: 15px 33px;
+     border-style: 2px solid;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: normal;
+     align-items: center;
+ }
+ 
+ #toplogo {
+     vertical-align: top;
+     display: flex;
+     flex-wrap: wrap;
+     height: 225px;
+     width: 225px;
+     border-radius: 150px;
+     padding: 10px;
+ }
+ 
+ #heading {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ #firstpic {
+     width: 100%;
+ }
