@@ -22,7 +22,48 @@ time, mark, audio, video {
 
 html{
     box-sizing:border-box;
+    background: #4ec274;
+    font-size: 62.5%;
   }
   *,*:before,*:after{
     box-sizing:inherit;
   }
+
+header {
+    border: 2px solid black;
+}
+#header-box {
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+#mission-statement{
+    border: 2px solid blue;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#user-quotes {
+    border: 2px solid purple;
+    font-size: 1.6em;
+}
+footer {
+    border: 2px solid red;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

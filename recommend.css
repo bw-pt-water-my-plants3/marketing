@@ -22,6 +22,8 @@ time, mark, audio, video {
 
 html{
     box-sizing:border-box;
+    background: #4ec274;
+    font-size: 62.5%;
   }
   *,*:before,*:after{
     box-sizing:inherit;
