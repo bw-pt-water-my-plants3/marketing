@@ -41,6 +41,24 @@ header {
     justify-content: center;
     align-items: center;
 }
+.nav-bar {
+    margin: 2em;
+}
+.nav-bar .home {
+    padding: 1.5rem;
+}
+.nav-bar .about {
+    padding: 1.5rem;
+}
+.nav-bar .mission {
+    padding: 1.5rem;
+}
+.nav-bar .recommend {
+    padding: 1.5rem;
+}
+.nav-bar .pom {
+    padding: 1.5rem;
+}
 #header-img {
     display: flex;
     justify-content: center;
