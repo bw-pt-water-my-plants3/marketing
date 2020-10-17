@@ -1,57 +1,77 @@
- body {
-     background-color: #4Ec274;
- }
- 
- #heading {
-     background: white;
-     padding: 12px;
-     height: 200px;
-     margin-bottom: 10px;
- }
- 
- #headone {
-     font-size: 80px;
-     text-align: center;
-     margin: 5px;
-     height: 100px;
- }
- 
- #tabs {
-     font-size: 30px;
-     padding: 12px;
-     height: 150px;
-     width: auto;
-     display: flex;
-     align-items: center;
- }
- 
- #tabs a {
-     border: #4Ec274;
-     color: black;
-     background-color: #4Ec274;
-     padding: 15px 33px;
-     border-style: 2px solid;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-style: normal;
-     align-items: center;
- }
- 
- #toplogo {
-     vertical-align: top;
-     display: flex;
-     flex-wrap: wrap;
-     height: 225px;
-     width: 225px;
-     border-radius: 150px;
-     padding: 10px;
- }
- 
- #heading {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
- 
- #firstpic {
-     width: 100%;
- }
+         body {
+             background-color: #4Ec274;
+             font-family: 'Cabin', sans-serif;
+         }
+         
+         #heading {
+             background: white;
+             padding: 12px;
+             height: 200px;
+             margin-bottom: 5px;
+         }
+         
+         #headone {
+             font-size: 75px;
+             font-style: initial;
+             height: 100px;
+         }
+         
+         #tabs {
+             font-size: 30px;
+             padding: 10px;
+             height: 150px;
+             width: 55%;
+             display: flex;
+             align-items: center;
+             justify-content: space-evenly;
+         }
+         
+         #tabs a {
+             border: green;
+             color: black;
+             background-color: #4Ec274;
+             padding: 15px 33px;
+             border-style: 2px solid;
+             font-style: normal;
+             align-items: center;
+         }
+         
+         #toplogo {
+             vertical-align: top;
+             display: flex;
+             flex-wrap: wrap;
+             height: 225px;
+             width: 225px;
+             border-radius: 150px;
+             padding: 10px;
+         }
+         
+         #heading {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+         }
+         
+         .firstpic {
+             height: 79em;
+             background-image: url("../marketing/pics/kids.jpg");
+             background-repeat: no-repeat;
+             background-size: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+         
+         .firstpic h3 {
+             text-align: center;
+             font-size: 30px;
+         }
+         
+         .firstpic button {
+             width: 200px;
+             padding: 17px;
+             color: green;
+             font: bolder;
+             font-size: 20px;
+             text-align: center;
+         }
