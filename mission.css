@@ -41,23 +41,52 @@ header {
     justify-content: center;
     align-items: center;
 }
+#header-box .statement {
+    padding: 1em;
+    font-size: 3em;
+}
 .nav-bar {
     margin: 2em;
 }
 .nav-bar .home {
+    margin: 0 1.5rem;
     padding: 1.5rem;
+    background: #fc3f3f;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
 }
 .nav-bar .about {
+    margin: 0 1.5rem;
     padding: 1.5rem;
+    background: #fc3f3f;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
 }
 .nav-bar .mission {
+    margin: 0 1.5rem;
     padding: 1.5rem;
+    background: #fc3f3f;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
 }
 .nav-bar .recommend {
+    margin: 0 1.5rem;
     padding: 1.5rem;
+    background: #fc3f3f;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
 }
 .nav-bar .pom {
+    margin: 0 1.5rem;
     padding: 1.5rem;
+    background: #fc3f3f;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
 }
 #header-img {
     display: flex;
@@ -67,7 +96,9 @@ header {
 }
 #mission-statement{
     border: 2px solid blue;
+    background: white;
     font-size: 1.6em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +106,31 @@ header {
 }
 #user-quotes {
     border: 2px solid purple;
+    background: #969695;
     font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+}
+#user-quotes #quote {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#user-quotes #quote2 {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#user-quotes #quote3 {
+    padding: 2em;
+}
+#user-quotes #quote4 {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer {
     border: 2px solid red;
@@ -84,4 +139,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footer-statement {
+    padding: 1em;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
