@@ -1,145 +1,175 @@
-body {
-    background-color: #4Ec274;
-    font-family: 'Cabin', sans-serif;
-}
-
-#heading {
-    background: white;
-    padding: 12px;
-    height: 200px;
-    margin-bottom: 5px;
-}
-
-#headone {
-    font-size: 70px;
-    font-style: initial;
-    height: 100px;
-}
-
-#tabs {
-    font-size: 30px;
-    padding: 10px;
-    height: 150px;
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#tabs a {
-    border: green;
-    color: black;
-    background-color: #4Ec274;
-    padding: 15px 33px;
-    border-style: 2px solid;
-    font-style: normal;
-    align-items: center;
-}
-
-#tabs a:hover {
-    background-color: black;
-    color: #4Ec274;
-}
-
-#toplogo {
-    vertical-align: top;
-    display: flex;
-    flex-wrap: wrap;
-    height: 225px;
-    width: 225px;
-    border-radius: 150px;
-    padding: 10px;
-}
-
-#heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.firstpic {
-    height: 79em;
-    background-image: url("../marketing/pics/kids.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.firstpic h3 {
-    text-align: center;
-    font-size: 30px;
-}
-
-.firstpic h3:hover {
-    font-size: 40px;
-}
-
-button {
-    width: 200px;
-    padding: 17px;
-    color: green;
-    font: bolder;
-    font-size: 20px;
-    text-align: center;
-}
-
-button:hover {
-    background-color: #4Ec274;
-    color: black;
-}
-
-.container {
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.container picture {
-    display: flex-flow;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 20px;
-}
-
-.container img {
-    width: 30rem;
-    height: 250px;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-footer {
-    background: white;
-    padding: 12px;
-    height: 150px;
-}
-
-.topimage {
-    height: 50em;
-    background-image: url("../marketing/pics/panaroma.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.topimage h3 {
-    font-size: 35px;
-}
-
-p {
-    font-size: 25px;
-}
-
-.topimage h3:hover {
-    font-size: 40px;
-}
+     body {
+         font-family: 'Cabin', sans-serif;
+     }
+     
+     #heading {
+         background: white;
+         padding: 12px;
+         height: 200px;
+         margin-bottom: 5px;
+     }
+     
+     #headone {
+         font-size: 70px;
+         font-style: initial;
+         height: 100px;
+     }
+     
+     .tabs {
+         font-size: 30px;
+         padding: 10px;
+         height: 150px;
+         width: 55%;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+     }
+     
+     .tabs a {
+         border: green;
+         color: black;
+         background-color: #4Ec274;
+         padding: 15px 33px;
+         border-style: 2px solid;
+         font-style: normal;
+         align-items: center;
+     }
+     
+     .tabs a:hover {
+         background-color: black;
+         color: #4Ec274;
+     }
+     
+     #toplogo {
+         vertical-align: top;
+         display: flex;
+         flex-wrap: wrap;
+         height: 225px;
+         width: 225px;
+         border-radius: 150px;
+         padding: 10px;
+     }
+     
+     #heading {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     
+     .firstpic {
+         height: 79em;
+         background-image: url("../marketing/pics/kids.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 15px;
+     }
+     
+     .firstpic h3 {
+         text-align: center;
+         font-size: 30px;
+     }
+     
+     .firstpic h3:hover {
+         font-size: 40px;
+         background-color: honeydew;
+     }
+     
+     button {
+         width: 200px;
+         padding: 17px;
+         color: green;
+         font: bolder;
+         font-size: 20px;
+         text-align: center;
+     }
+     
+     button:hover {
+         background-color: #4Ec274;
+         color: black;
+         font-size: 30px;
+     }
+     
+     .column img {
+         width: 480px;
+         height: 250px;
+     }
+     
+     h2 {
+         font-size: 35px;
+     }
+     
+     .topimage {
+         height: 50em;
+         background-image: url("../marketing/pics/panaroma.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     
+     .topimage h3 {
+         font-size: 35px;
+     }
+     
+     .topimage p:hover {
+         font-size: 32px;
+         background-color: honeydew;
+         background-blend-mode: soft-light;
+     }
+     
+     .topimage h3:hover {
+         font-size: 40px;
+         color: #4Ec274;
+         background-color: honeydew;
+     }
+     
+     h4 {
+         font-size: 30px;
+     }
+     
+     p {
+         font-size: 20px;
+     }
+     
+     .lastone:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     
+     .row {
+         display: flex;
+     }
+     
+     .column {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         margin: 0 200px;
+     }
+     
+     footer {
+         background: white;
+         padding: 12px;
+         height: 150px;
+     }
+     
+     footer .tabs {
+         justify-content: space-evenly;
+     }
+     
+     .Goal {
+         text-align: center;
+     }
+     
+     .Goal:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     
+     .container {
+         background-color: #FFFFFFc;
+     }
+     /* / //for phone design 
+@media (max-width: 500px) {}*/
