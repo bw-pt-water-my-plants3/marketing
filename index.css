@@ -1,289 +1,399 @@
-        html,
-    body,
-    div,
-    span,
-    applet,
-    object,
-    iframe,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    abbr,
-    acronym,
-    address,
-    big,
-    cite,
-    code,
-    del,
-    dfn,
-    em,
-    img,
-    ins,
-    kbd,
-    q,
-    s,
-    samp,
-    small,
-    strike,
-    strong,
-    sub,
-    sup,
-    tt,
-    var,
-    b,
-    u,
-    i,
-    center,
-    dl,
-    dt,
-    dd,
-    ol,
-    ul,
-    li,
-    fieldset,
-    form,
-    label,
-    legend,
-    table,
-    caption,
-    tbody,
-    tfoot,
-    thead,
-    tr,
-    th,
-    td,
-    article,
-    aside,
-    canvas,
-    details,
-    embed,
-    figure,
-    figcaption,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    output,
-    ruby,
-    section,
-    summary,
-    time,
-    mark,
-    audio,
-    video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+#heading {
+    background: white;
+    padding: 12px;
+    height: 200px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headone {
+    font-size: 70px;
+    font-family: 'Cabin', sans-serif;
+    height: 100px;
+}
+
+.tabs {
+    font-size: 25px;
+    height: 150px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabs a {
+    border: green;
+    color: black;
+    background-color: #4Ec274;
+    padding: 15px 33px;
+    border-style: 2px solid;
+    border-radius: 1.5rem;
+    font-style: normal;
+    align-items: center;
+}
+
+.tabs a:hover {
+    background-color: black;
+    color: #4Ec274;
+}
+
+#toplogo {
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    height: 225px;
+    width: 225px;
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.firstpic {
+    height: 79em;
+    background-image: url("../marketing/pics/kids.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.firstpic h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+button {
+    width: 200px;
+    padding: 17px;
+    color: green;
+    font: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #4Ec274;
+    color: black;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.row {
+    display: flex;
+}
+
+.goal {
+    padding: 30px;
+    text-align: center;
+    height: 180px;
+}
+
+.goal:hover {
+    background-color: rgb(164, 226, 170);
+}
+
+.column img {
+    width: 440px;
+    height: 250px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.textborder {
+    height: 150px;
+    width: 420px;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+#bottomcontainer {
+    background: #4Ec274;
+    padding: 30px;
+    text-align: center;
+    height: 170px;
+}
+
+#bottomcontainer h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: white;
+    padding: 12px;
+    height: 150px;
+}
+
+footer .tabs {
+    justify-content: space-evenly;
+}
+
+
+/* for the contact page CSS */
+
+.topimage {
+    height: 50em;
+    background-image: url("../marketing/pics/panaroma.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.topimage h3 {
+    margin: 25px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.topimage p {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.topimage p:hover {
+    font-size: 32px;
+    background-color: honeydew;
+    background-blend-mode: soft-light;
+}
+
+.topimage h3:hover {
+    font-size: 40px;
+    color: #4Ec274;
+    background-color: honeydew;
+}
+
+.lastone {
+    height: 225px;
+    padding: 20px;
+}
+
+.lastone:hover {
+    background-color: rgb(164, 226, 170);
+}
+
+
+/* End of contact CSS Page*/
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+/* for phone design  */
+
+@media screen and (max-width: 500px) {
     body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 16px;
+        font-size: 8px;
     }
-    
     #heading {
-        background: white;
-        padding: 12px;
-        height: 200px;
-        margin-bottom: 5px;
+        padding: 1px;
+        height: 80px;
+        margin-bottom: 0.5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
     #headone {
-        font-size: 70px;
-        font-family: 'Cabin', sans-serif;
-        height: 100px;
+        font-size: 15px;
+        height: 20px;
     }
-    
     .tabs {
-        font-size: 25px;
-        height: 150px;
-        width: 55%;
+        font-size: 5px;
+        height: 75px;
+        width: 65%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
-    
     .tabs a {
-        border: green;
-        color: black;
-        background-color: #4Ec274;
-        padding: 15px 33px;
-        border-style: 2px solid;
-        border-radius: 1.5rem;
-        font-style: normal;
-        align-items: center;
+        padding: 4px 15px;
+        border-style: 1px solid;
+        border-radius: 0.5rem;
     }
-    
-    .tabs a:hover {
-        background-color: black;
-        color: #4Ec274;
-    }
-    
     #toplogo {
-        vertical-align: top;
-        display: flex;
-        flex-wrap: wrap;
-        height: 225px;
-        width: 225px;
-        border-radius: 150px;
-        padding: 10px;
+        height: 70px;
+        width: 50px;
+        border-radius: 45px;
+        padding: 5px;
     }
-    
     .firstpic {
-        height: 79em;
-        background-image: url("../marketing/pics/kids.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 15px;
+        height: 41em;
+        margin-bottom: 2px;
     }
-    
     .firstpic h3 {
-        text-align: center;
-        margin-top: 50px;
-        font-size: 40px;
-        color: white;
-        text-shadow: 2px 2px 5px black;
-        ;
+        margin-top: 3px;
+        font-size: 15px;
     }
-    
     button {
-        width: 200px;
-        padding: 17px;
-        color: green;
+        width: 53px;
+        padding: 5px;
         font: bolder;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15px;
+        font-size: 6px;
+        margin-top: 5px;
     }
-    
-    button:hover {
-        background-color: #4Ec274;
-        color: black;
-        font-size: 30px;
-    }
-    
     h2 {
-        font-size: 35px;
+        font-size: 15px;
     }
-    
-    .topimage {
-        height: 50em;
-        background-image: url("../marketing/pics/panaroma.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .topimage h3 {
-        font-size: 35px;
-    }
-    
-    .topimage p:hover {
-        font-size: 32px;
-        background-color: honeydew;
-        background-blend-mode: soft-light;
-    }
-    
-    .topimage h3:hover {
-        font-size: 40px;
-        color: #4Ec274;
-        background-color: honeydew;
-    }
-    
-    h4 {
-        font-size: 30px;
-    }
-    
-    p {
-        font-size: 20px;
-    }
-    
-    .lastone:hover {
-        background-color: rgb(164, 226, 170);
-    }
-    
-    .row {
-        display: flex;
-    }
-    
-    .column img {
-        width: 440px;
-        height: 250px;
-    }
-    
-    .textborder {
-        height: 150px;
-        width: 420px;
-        padding: 10px;
-    }
-    
-    .column {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 40px 18px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    footer {
-        background: white;
-        padding: 12px;
-        height: 150px;
-    }
-    
-    footer .tabs {
-        justify-content: space-evenly;
-    }
-    
     .goal {
-        padding: 30px;
-        text-align: center;
-        height: 180px;
+        padding: 12px;
+        height: 90px;
     }
-    
-    .goal:hover {
-        background-color: rgb(164, 226, 170);
+    h4 {
+        font-size: 12px;
     }
-    
+    p {
+        font-size: 11px;
+    }
+    .column img {
+        width: 114px;
+        height: 65px;
+    }
+    .textborder {
+        height: 60px;
+        width: 110px;
+        padding: 2.5px;
+    }
+    .column {
+        margin: 9px 5px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
     .container {
-        background-color: rgb(255, 255, 255);
-        margin-bottom: 50px;
+        margin-bottom: 13px;
     }
-    
     #bottomcontainer {
-        background: #4Ec274;
-        padding: 30px;
-        text-align: center;
-        height: 170px;
+        padding: 9px;
+        height: 50px;
     }
-    
     #bottomcontainer h2 {
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 2px;
+        margin-bottom: 8px;
     }
-    /*-------------------------------------------------------------------------------*/
-    /* for phone design  */
-    
-    @media screen and (max-width: 500px) {
-        body {
-            font-family: 'Cabin', sans-serif;
-        }
+    footer {
+        padding: 4px;
+        height: 35px;
+    }
+}
