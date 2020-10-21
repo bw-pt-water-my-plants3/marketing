@@ -74,57 +74,19 @@ div.logins button {
     margin-right: 16px;
 }
 
-section.introduction {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    margin: 0, auto;
-}
-
-h1 {
-    display: flex;
-    width: 100%;
-    font-size: 2.5rem;
-    font-weight: bold;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-section.introduction div {
+.topText {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     font-size: 1.6rem;
+    text-align: center;
     line-height: 2rem;
     justify-content: center;
     margin: 0% auto;
 }
 
-.join .bimg{
-    width: 80%;
-    display: flex;
-    text-align: center;
-    margin: 20px auto;
-    padding: 9rem 0;
-    background-image: url("Assets/join.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-.bimg button {
-    width: 10%;
-    font-size: 1.6rem;
-    color: white;
-    background-color: #4EC274;
-    border: solid white 3px;
-    border-radius: 1.5rem;
-}
-
-.bimg button:hover {
-    background-color: green;
+.bigContainer div img {
+    width: 17%;
 }
 
 footer nav {
@@ -143,26 +105,4 @@ footer nav a {
 
 footer nav a:hover {
     color: white;
-}
-
-@media (max-width: 1024px) {
-    header nav .navbar a {
-        width: 18%;
-        margin-left: 2px;
-        margin-right: 2px;
-        padding-left: 1px;
-        padding-right: 1px;
-    }
-}
-
-@media (max-width: 800px) {
-    header nav .navbar a {
-        width: 20%;
-        margin: 10px;
-        align-self: center;
-    }
-}
-
-@media (max-width: 500px) {
-
 }
