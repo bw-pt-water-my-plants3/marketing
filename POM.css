@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4px;
 }
 
 .navbar {
@@ -134,3 +135,47 @@ footer nav a {
 footer nav a:hover {
     color: white;
 }
+
+@media (max-width: 1024px) {
+    header nav .navbar {
+        width: 90%;
+    }
+
+    header nav .navbar a {
+        width: 18%;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav .navbar a {
+        display: flex;
+        min-height: 2rem;
+        max-height: 2rem;
+        width: 20%;
+        margin: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header nav .navbar a {
+        display: flex;
+        width: 100%;
+        font-size: 2rem;
+        padding: 5px;
+        margin: 2px 5px 2px 5px;
+    }

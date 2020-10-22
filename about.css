@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4px;
 }
 
 .navbar {
@@ -151,6 +152,11 @@ footer nav a:hover {
 }
 
 @media (max-width: 1024px) {
+    @media (max-width: 1024px) {
+        header nav .navbar {
+            width: 90%;
+        }
+        
     header nav .navbar a {
         width: 18%;
         margin-left: 2px;
@@ -166,11 +172,15 @@ footer nav a:hover {
         min-height: 2rem;
         max-height: 2rem;
         width: 20%;
-        margin: 10px;
+        margin: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
         justify-content: center;
-        text-align: center;
-        align-content: center;
         align-items: center;
+    }
+
+    .join .bimg button {
+        width: 15%;
     }
 }
 
@@ -182,8 +192,23 @@ footer nav a:hover {
         justify-content: space-evenly;
     }
 
-    .navbar a {
+    header nav .navbar a {
         display: flex;
         width: 100%;
+        font-size: 2rem;
+        padding: 5px;
+        margin: 2px 5px 2px 5px;
+    }
+
+    section.introduction div {
+        width: 80%;
+    }
+
+    .join .bimg {
+        width: 100%;
+    }
+
+    .join .bimg button {
+        width: 22%;
     }
 }
