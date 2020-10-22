@@ -112,6 +112,61 @@ html{
   color: #4ec274;
   border-radius: 1.5rem;
 }
+#header-img {
+  margin : 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header {
+  font-size: 1.6em;
+}
+#plants {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+#plants p {
+  font-size: 1.6em;
+}
+#plants #snake {
+  border: 2px solid blue;
+  width: 25%;
+}
+#snake img {
+  height: 70%;
+}
+#plants #spider {
+  border: 2px solid purple;
+  width: 25%;
+}
+#spider img {
+  width: 130%;
+}
+#plants #lily {
+  border: 2px solid green;
+  width: 25%;
+}
+#plants #succulent {
+  border: 2px solid orange;
+  width: 25%;
+}
+#plants #cast {
+  border: 2px solid blue;
+  width: 25%;
+}
+#plants #palm {
+  border: 2px solid green;
+  width: 25%;
+}
+#plants #orchid {
+  border: 2px solid purple;
+  width: 25%;
+}
+#plants #aloe {
+  border: 2px solid teal;
+  width: 25%;
+}
 footer {
   font-size: 1.6em;
   background: #4ec274;
