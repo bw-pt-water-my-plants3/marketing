@@ -119,29 +119,25 @@ html{
   align-items: center;
 }
 #header {
-  font-size: 1.6em;
+  font-size: 2em;
+  border-bottom: 1px solid black
 }
 #plants {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
 }
 #plants p {
   font-size: 1.6em;
 }
+
 #plants #snake {
-  border: 2px solid blue;
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#snake img {
-  height: 70%;
-}
 #plants #spider {
-  border: 2px solid purple;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -150,7 +146,6 @@ html{
 }
 
 #plants #lily {
-  border: 2px solid green;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -158,7 +153,6 @@ html{
   justify-content: center;
 }
 #plants #succulent {
-  border: 2px solid orange;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -166,7 +160,6 @@ html{
   justify-content: center;
 }
 #plants #cast {
-  border: 2px solid blue;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -174,7 +167,6 @@ html{
   justify-content: center;
 }
 #plants #palm {
-  border: 2px solid green;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -182,7 +174,6 @@ html{
   justify-content: center;
 }
 #plants #orchid {
-  border: 2px solid purple;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -190,7 +181,6 @@ html{
   justify-content: center;
 }
 #plants #aloe {
-  border: 2px solid teal;
   width: 25%;
   display: flex;
   flex-direction: column;
