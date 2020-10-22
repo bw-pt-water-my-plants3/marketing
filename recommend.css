@@ -345,7 +345,6 @@ footer {
     width: 100%;
   }
   .nav-bar {
-    border: 2px solid red;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -462,7 +461,7 @@ footer {
     border-radius: 1.5rem;
     width: 80%;
   }
-  footer.nav-bar #pom {
+  footer .nav-bar #pom {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
