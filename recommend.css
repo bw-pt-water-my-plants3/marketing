@@ -210,9 +210,42 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .nav-bar {
-    flex-direction: unset;
-    flex-direction: row;
+  #plants {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #plants #snake {
+    width: 50%;
+
+  }
+  #plants #spider {
+    width: 50%;
+
+  }
+  
+  #plants #lily {
+    width: 50%;
+
+  }
+  #plants #succulent {
+    width: 50%;
+
+  }
+  #plants #cast {
+    width: 50%;
+
+  }
+  #plants #palm {
+    width: 50%;
+
+  }
+  #plants #orchid {
+    width: 50%;
+
+  }
+  #plants #aloe {
+    width: 50%;
+
   }
 
 }
@@ -237,6 +270,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  header {
+    width: 100%;
   }
   #log {
     width: 100%;
