@@ -196,8 +196,11 @@ footer {
         width: 75%;
     }
     .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 2%;
-        
+        width: 100%;
     }
     .nav-bar .home {
         margin: 0 1%;
@@ -228,6 +231,12 @@ footer {
         margin: 0 1%;
         padding: 1.5%;
     }
+    footer {
+        width: 100%;
+    }
+    footer .nav-bar {
+        width: 100%;
+    }
 }
 @media (min-width: 800px) {
     body {
@@ -254,6 +263,9 @@ footer {
         width: 100%;
         border: 2px solid black;
     }
+    footer {
+        width: 100%;
+    }
 }
 @media (min-width: 1024px) {
     body {
@@ -261,6 +273,18 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    header{
+        width: 100%;
+    }
+    #log {
+        width: 100%;
+    }
+    #header-img {
+        margin : 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     footer {
         width: 100%;
