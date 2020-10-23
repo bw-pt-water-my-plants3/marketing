@@ -326,6 +326,67 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+  }
+  header .nav-bar #home {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
+  header .nav-bar #about {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
+  header .nav-bar #mission {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
+  header .nav-bar #recommend {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
+  header .nav-bar #pom {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
+  header .nav-bar #contact {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background: #d6d6d6;
+    text-decoration: none;
+    color: #4ec274;
+    border-radius: 1.5rem;
+  }
   #log {
     width: 90%;
   }

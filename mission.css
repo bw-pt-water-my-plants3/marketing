@@ -288,7 +288,7 @@ footer {
 
     }
     #header-box { 
-        width: 100%;
+        width: 99%;
     }
     .nav-bar {
         width: 100%;
@@ -377,7 +377,7 @@ footer {
         width: 100%;
     }
     footer .nav-bar {
-        width: 100%;
+        width: 99%;
         margin: 2rem 0;
     }
     footer .nav-bar .home {
