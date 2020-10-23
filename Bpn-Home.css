@@ -1,0 +1,636 @@
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* CODING STARTS RIGHT HERE */
+ 
+ body {
+     font-family: 'Cabin', sans-serif;
+     font-size: 16px;
+ }
+ 
+ #heading {
+     background: white;
+     padding: 12px;
+     height: 200px;
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ #headone {
+     font-size: 70px;
+     font-family: 'Cabin', sans-serif;
+     height: 100px;
+     text-shadow: 2px 2px 5px #4Ec274;
+ }
+ 
+ .headtabs {
+     font-size: 25px;
+     height: 150px;
+     width: 55%;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ .headtabs a {
+     border: green;
+     color: black;
+     background-color: #4Ec274;
+     padding: 15px 33px;
+     border-style: 2px solid;
+     border-radius: 1.5rem;
+     font-style: normal;
+     align-items: center;
+ }
+ 
+ .headtabs a:hover {
+     background-color: black;
+     color: #4Ec274;
+ }
+ 
+ #toplogo {
+     vertical-align: top;
+     display: flex;
+     flex-wrap: wrap;
+     height: 225px;
+     width: 225px;
+     border-radius: 150px;
+     padding: 10px;
+ }
+ 
+ .firstpic {
+     height: 79em;
+     background-image: url("../marketing/pics/kids.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 15px;
+ }
+ 
+ .firstpic h3 {
+     text-align: center;
+     margin-top: 50px;
+     font-size: 40px;
+     color: white;
+     text-shadow: 2px 2px 5px black;
+ }
+ 
+ .firstpic button {
+     width: 100px;
+     padding: 12px;
+     color: green;
+     font: bolder;
+     font-size: 20px;
+     text-align: center;
+     margin: 10px 5px;
+ }
+ 
+ button:hover {
+     background-color: #4Ec274;
+     color: black;
+     font-size: 22px;
+ }
+ 
+ .tabbuttons {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ h2 {
+     font-size: 35px;
+ }
+ 
+ .goal {
+     padding: 30px;
+     text-align: center;
+     height: 180px;
+ }
+ 
+ .goal:hover {
+     background-color: rgb(164, 226, 170);
+ }
+ 
+ .container {
+     background-color: rgb(255, 255, 255);
+     margin-bottom: 50px;
+ }
+ 
+ .row {
+     display: flex;
+ }
+ 
+ .column img {
+     width: 440px;
+     height: 250px;
+ }
+ 
+ .column {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 40px 18px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ .textborder {
+     height: 150px;
+     width: 420px;
+     padding: 10px;
+ }
+ 
+ h4 {
+     font-size: 30px;
+ }
+ 
+ p {
+     font-size: 20px;
+ }
+ 
+ #bottomcontainer {
+     padding: 30px;
+     text-align: center;
+     height: 170px;
+ }
+ 
+ #bottomcontainer h2 {
+     margin-top: 10px;
+     margin-bottom: 30px;
+ }
+ 
+ #bottomcontainer button {
+     width: 200px;
+     padding: 17px;
+     background-color: #4Ec274;
+     font: bolder;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 15px;
+ }
+ 
+ .footertabs a {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ /* End of contact CSS Page*/
+ /*-------------------------------------------------------------------------------*/
+ /* for phone design  */
+ 
+ @media screen and (max-width: 1024px) {
+     body {
+         font-family: 'Cabin', sans-serif;
+         font-size: 12px;
+     }
+     #heading {
+         padding: 6px;
+         height: 100px;
+         margin-bottom: 3px;
+     }
+     #headone {
+         font-size: 38px;
+         font-family: 'Cabin', sans-serif;
+         height: 55px;
+         text-shadow: 2px 2px 5px #4Ec274;
+     }
+     .headtabs {
+         font-size: 13px;
+         height: 80px;
+         width: 55%;
+     }
+     .headtabs a {
+         padding: 9px 15px;
+         border-style: 2px solid;
+         border-radius: 1.5rem;
+         font-style: normal;
+         align-items: center;
+     }
+     #toplogo {
+         height: 120px;
+         width: 120px;
+         border-radius: 80px;
+         padding: 5.5px;
+     }
+     .firstpic {
+         height: 45em;
+         background-image: url("../marketing/pics/kids.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 8px;
+     }
+     .firstpic h3 {
+         text-align: center;
+         margin-top: 27px;
+         font-size: 22px;
+         color: white;
+         text-shadow: 2px 2px 5px black;
+     }
+     .firstpic button {
+         width: 55px;
+         padding: 7px;
+         color: green;
+         font: bolder;
+         font-size: 11px;
+         text-align: center;
+         margin: 5px 2.5px;
+     }
+     button:hover {
+         background-color: #4Ec274;
+         color: black;
+         font-size: 12px;
+     }
+     h2 {
+         font-size: 18px;
+     }
+     .goal {
+         padding: 17px;
+         text-align: center;
+         height: 100px;
+     }
+     .goal:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     .container {
+         background-color: rgb(255, 255, 255);
+         margin: 30px 0;
+     }
+     .row {
+         display: flex;
+     }
+     .column img {
+         width: 240px;
+         height: 135px;
+     }
+     .column {
+         margin: 21px 8px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+     .textborder {
+         height: 100px;
+         width: 225px;
+         padding: 5px;
+     }
+     h4 {
+         font-size: 16px;
+     }
+     p {
+         font-size: 9px;
+     }
+     #bottomcontainer {
+         padding: 14px;
+         text-align: center;
+         height: 110px;
+     }
+     #bottomcontainer h2 {
+         margin-top: 5.5px;
+         margin-bottom: 16px;
+     }
+     #bottomcontainer button {
+         width: 106px;
+         padding: 8px;
+         background-color: #4Ec274;
+         font: bolder;
+         font-size: 11px;
+         text-align: center;
+         margin: 5px;
+     }
+     .footertabs a {
+         width: 100%;
+     }
+     @media screen and (max-width: 800px) {
+         body {
+             font-size: 7px;
+         }
+         #heading {
+             padding: 5px;
+             height: 85px;
+             margin-bottom: 2.1px;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+         }
+         #headone {
+             font-size: 30px;
+             height: 42px;
+             text-shadow: 2px 2px 5px #4Ec274;
+         }
+         .headtabs {
+             font-size: 11px;
+             height: 63px;
+             width: 55%;
+             display: flex;
+             align-items: center;
+             justify-content: space-evenly;
+         }
+         .headtabs a {
+             padding: 6px 14px;
+             border-style: 1px solid;
+             border-radius: 0.8rem;
+         }
+         #toplogo {
+             height: 94px;
+             width: 94px;
+             border-radius: 63px;
+             padding: 4.5px;
+         }
+         .firstpic {
+             height: 79em;
+             background-image: url("../marketing/pics/kids.jpg");
+             background-repeat: no-repeat;
+             background-size: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-bottom: 6.5px;
+         }
+         .firstpic h3 {
+             margin-top: 21px;
+             font-size: 17px;
+             color: white;
+             text-shadow: 2px 2px 5px black;
+         }
+         .firstic button {
+             width: 41px;
+             padding: 3.5px;
+             font: bolder;
+             font-size: 10px;
+             margin-top: 7px;
+         }
+         .tabbuttons {
+             display: flex;
+             flex-direction: row;
+         }
+         h2 {
+             font-size: 15px;
+         }
+         .goal {
+             padding: 13px;
+             text-align: center;
+             height: 80px;
+         }
+         .goal:hover {
+             background-color: rgb(164, 226, 170);
+         }
+         .container {
+             background-color: rgb(255, 255, 255);
+             margin-bottom: 21px;
+         }
+         .row {
+             display: flex;
+         }
+         .column img {
+             width: 185px;
+             height: 1.5px;
+         }
+         .column {
+             display: flex;
+             justify-content: center;
+             flex-direction: column;
+             margin: 17px 8px;
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         }
+         .textborder {
+             height: 85px;
+             width: 180px;
+             padding: 5px;
+         }
+         h4 {
+             font-size: 25px;
+         }
+         p {
+             font-size: 9px;
+         }
+         #bottomcontainer {
+             padding: 13px;
+             text-align: center;
+             height: 72px;
+         }
+         #bottomcontainer h2 {
+             margin-top: 4px;
+             margin-bottom: 15px;
+         }
+         #bottomcontainer button {
+             width: 85px;
+             padding: 8px;
+             background-color: #4Ec274;
+             font: bolder;
+             font-size: 9px;
+             text-align: center;
+             margin-top: 7px;
+         }
+         .footertabs {
+             width: 50%;
+             display: flex;
+             flex-direction: row;
+             margin: 2px 0;
+         }
+     }
+     @media screen and (max-width: 500px) {
+         body {
+             font-size: 8px;
+         }
+         #heading {
+             padding: 1px;
+             height: 80px;
+             margin-bottom: 0.5px;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+         }
+         #headone {
+             font-size: 15px;
+             height: 20px;
+             text-shadow: 2px 2px 5px #4Ec274;
+         }
+         .headtabs {
+             font-size: 5px;
+             height: 75px;
+             width: 65%;
+             display: flex;
+             align-items: center;
+             justify-content: space-evenly;
+         }
+         .headtabs a {
+             padding: 4px 15px;
+             border-style: 1px solid;
+             border-radius: 0.5rem;
+         }
+         #toplogo {
+             height: 70px;
+             width: 50px;
+             border-radius: 45px;
+             padding: 5px;
+         }
+         .firstpic {
+             height: 41em;
+             margin-bottom: 2px;
+         }
+         .firstpic h3 {
+             margin-top: 3px;
+             font-size: 15px;
+         }
+         button {
+             width: 53px;
+             padding: 5px;
+             font: bolder;
+             font-size: 6px;
+             margin-top: 5px;
+         }
+         h2 {
+             font-size: 15px;
+         }
+         .goal {
+             padding: 12px;
+             height: 90px;
+         }
+         h4 {
+             font-size: 12px;
+         }
+         p {
+             font-size: 11px;
+         }
+         .column img {
+             width: 114px;
+             height: 65px;
+         }
+         .textborder {
+             height: 60px;
+             width: 110px;
+             padding: 2.5px;
+         }
+         .column {
+             margin: 9px 5px;
+             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         }
+         .container {
+             margin-bottom: 13px;
+         }
+         #bottomcontainer {
+             padding: 9px;
+             height: 50px;
+         }
+         #bottomcontainer h2 {
+             margin-top: 2px;
+             margin-bottom: 8px;
+         }
+         footer {
+             padding: 4px;
+             height: 35px;
+         }
+         .topimage {
+             height: 30em;
+             background-image: url("../marketing/pics/panaroma.jpg");
+             background-repeat: no-repeat;
+             background-size: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-bottom: 4px;
+         }
+         .topimage p {
+             margin-bottom: 4px;
+             font-size: 7px;
+         }
+         .topimage h3 {
+             margin: 6px;
+             font-size: 11px;
+             text-shadow: 2px 2px 5px black;
+         }
+         .lastone {
+             height: 105px;
+             padding: 5px;
+         }
+     }
+ }
