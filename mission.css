@@ -31,8 +31,7 @@ html{
 
 #header-box {
     padding: 2rem;
-    font-size: 1.6em;  
-    background: #4ec274;  
+    font-size: 1.6em;   
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,7 +43,6 @@ html{
     font-size: 3em;
 }
 #log {
-    background: #4ec274; 
     font-size: 1.6em;
     display: flex;
     justify-content: flex-end;
@@ -53,9 +51,8 @@ html{
 #log-in {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
     align-self: flex-end
 }
@@ -69,49 +66,43 @@ html{
 .nav-bar .home {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 .nav-bar .about {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 .nav-bar .mission {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 .nav-bar .recommend {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 .nav-bar .pom {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 .nav-bar .contact {
     margin: 0 1.5rem;
     padding: 1.5rem;
-    background: #d6d6d6;
-    text-decoration: none;
-    color: #4ec274;
+    background: #4ec274;
+    color: white;
     border-radius: 1.5rem;
 }
 
@@ -301,9 +292,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -311,9 +301,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 12%;        
       }
@@ -321,9 +310,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -331,9 +319,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 13%;
       }
@@ -341,9 +328,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -351,9 +337,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -455,9 +440,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -465,9 +449,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -475,9 +458,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -485,9 +467,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -495,9 +476,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -505,9 +485,8 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #d6d6d6;
-        text-decoration: none;
-        color: #4ec274;
+        background: #4ec274;
+        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
