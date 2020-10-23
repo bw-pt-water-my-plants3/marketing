@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+header div p {
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 1rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+header nav .navbar a {
+    width: 15%;
+    font-size: 1.2rem;
+    text-align: center;
+    align-self: center;
+    margin: 5px 10px 0px 10px;   
+    text-decoration: none;
+    color: white;
+    background-color: #4EC274;
+    padding: 10px;
+    border-radius: 1.5rem;
+    line-height: 1rem;
+}
+
+.navbar a:hover {
+    color: #4EC274;
+    background-color: black;
+}
+
+div.logins {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 100%;
+    border-bottom: solid black 4px;
+}
+
+div.logins a {
+    margin: .8rem;
+    align-self: center;
+    font-size: 1rem;
+    color: #4EC274;
+    text-decoration: none;
+}
+
+.logins a:hover {
+    color: darkgreen;
+}
+
+div.logins #Signup {
+    font-weight: bold;
+    color: white;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    background-color: #4EC274;
+    align-self: center;
+    justify-content: center;
+}
+
+div.logins #Signup:hover {
+    color: #4EC274;
+    background-color: black;
+}
+
+.topText {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2rem;
+    justify-content: center;
+    margin: 3% auto;
+}
+.bigContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.bigContainer div {
+    width: 28%;
+    margin: 1%;
+}
+
+.bigContainer div p {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.bigContainer div img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer nav {
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column;
+    background-color: #4EC274;
+    padding: 1.8rem 0;
+    line-height: 2rem;
+    margin-top: 2%;
+}
+
+footer nav a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    header nav .navbar {
+        width: 90%;
+    }
+
+    header nav .navbar a {
+        width: 18%;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav .navbar a {
+        display: flex;
+        min-height: 2rem;
+        max-height: 2rem;
+        width: 20%;
+        margin: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header nav .navbar a {
+        display: flex;
+        width: 100%;
+        font-size: 2rem;
+        padding: 5px;
+        margin: 2px 5px 2px 5px;
+    }
+}
