@@ -28,6 +28,7 @@ html{
   *,*:before,*:after{
     box-sizing:inherit;
   }
+/*--------------Header---------------*/
 #header-box {
     padding: 2rem;
     font-size: 1.2em;   
@@ -67,6 +68,7 @@ html{
     text-decoration: none;
     color: black;
 }
+/*--------------Navigation Bar---------------*/
 .nav-bar {
     margin: 2rem;
     width: 80%;
@@ -147,12 +149,14 @@ html{
     background: black;
     color: #4ec274;
 }
+/*--------------Header image---------------*/
 #header-img {
     margin : 2rem 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*--------------Mission Statement---------------*/
 #mission-statement{
     background: white;
     font-size: 1.6em;
@@ -162,6 +166,7 @@ html{
     justify-content: center;
     align-items: center;
 }
+/*--------------User Quotes---------------*/
 #user-quotes {
     background: #969695;
     font-size: 1.6em;
@@ -190,6 +195,7 @@ html{
     flex-direction: column;
     align-items: center;
 }
+/*--------------Footer ---------------*/
 footer {
     font-size: 1.6em;
     background: #4ec274;
@@ -206,7 +212,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
+/*--------------Media Queries @ 500px, 800px, and 1024px---------------*/
 @media (min-width: 500px) {
     body {
         display: flex;
@@ -215,12 +221,14 @@ footer {
         justify-content: center;
         flex-wrap: nowrap;
     }
+    /*--------------Header---------------*/
     #header-box {
         width: 100%;
     }
     #log {
         width: 75%;
     }
+    /*--------------Navigation Bar---------------*/
     .nav-bar {
         display: flex;
         flex-wrap: wrap;
@@ -265,6 +273,7 @@ footer {
         width: 80%;
         text-align: center;
     }
+    /*--------------Footer---------------*/
     footer {
         display: flex;
         align-items: center;
@@ -326,9 +335,11 @@ footer {
         justify-content: center;
 
     }
+    /*--------------Header---------------*/
     #header-box { 
         width: 99%;
     }
+    /*--------------Navigation Bar---------------*/
     .nav-bar {
         width: 100%;
         display: flex;
@@ -378,18 +389,23 @@ footer {
         border-radius: 1.5rem;
         width: 10%;
       }
+    /*--------------Log-in---------------*/
     #log {
         width: 87%;
     }
+    /*--------------Header Image---------------*/
     #header-img {
         width: 90%;
     }
+    /*--------------Mission Statement---------------*/
     #mission-statement {
         width: 100%;
     }
+    /*--------------User Quotes---------------*/
     #user-quotes {
         width: 100%;
     }
+    /*--------------Footer---------------*/
     footer {
         display: flex;
         align-items: center;
@@ -468,9 +484,14 @@ footer {
         align-items: center;
         justify-content: center;
       }
+      /*--------------Header---------------*/
       header {
         width: 100%;
       }
+        #log {
+        width: 100%;
+      }
+      /*--------------Navigation Bar---------------*/
       .nav-bar {
         width: 100%;
         display: flex;
@@ -478,9 +499,7 @@ footer {
         align-items: center;
         justify-content: center;
       }
-      #log {
-        width: 100%;
-      }
+      /*--------------Footer---------------*/
       footer {
         display: flex;
         flex-direction: column;

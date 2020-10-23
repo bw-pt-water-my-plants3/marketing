@@ -28,7 +28,7 @@ html{
   *,*:before,*:after{
     box-sizing:inherit;
   }
-
+/*--------------Header---------------*/
 #header-box {
   font-size: 1.2em;   
   display: flex;
@@ -66,6 +66,7 @@ html{
   text-decoration: none;
   color: black;
 }
+/*--------------Navigation Bar---------------*/
 .nav-bar {
   margin: 2em;
   width: 80%;
@@ -145,16 +146,19 @@ html{
   background: black;
   color: #4ec274;
 }
+/*--------------Header Image---------------*/
 #header-img {
   margin : 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/*--------------Body Statement---------------*/
 #header {
   font-size: 2em;
   border-bottom: 1px solid black
 }
+/*--------------Body Statements/Images---------------*/
 #plants {
   display: flex;
   flex-wrap: wrap;
@@ -218,6 +222,7 @@ html{
   align-items: center;
   justify-content: center;
 }
+/*--------------Footer---------------*/
 footer {
   font-size: 1.6em;
   background: #4ec274;
@@ -233,7 +238,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
+/*--------------Media Queries @ 500px, 800px, and 1024px---------------*/
 @media (min-width: 500px) {
   body {
     display: flex;
@@ -241,9 +246,11 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  /*--------------Header---------------*/
   #log {
     width: 75%;
   }
+  /*--------------Navigation Bar---------------*/
   .nav-bar {
     display: flex;
     flex-direction: column;
@@ -262,7 +269,6 @@ footer {
     padding: 1.5rem;
     width: 40%
   }
-
 
   .nav-bar #mission {
     text-align: center;
@@ -291,7 +297,7 @@ footer {
     padding: 1.5rem;
     width: 40%
   }
-
+/*--------------Body Images---------------*/
   #plants {
     display: flex;
     flex-wrap: wrap;
@@ -320,6 +326,7 @@ footer {
   #plants #aloe {
     width: 50%;
   }
+  /*--------------Footer---------------*/
   footer {
     display: flex;
     flex-direction: column;
@@ -357,6 +364,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  /*--------------Header Navigation Bar---------------*/
   header .nav-bar {
     display: flex;
     flex-direction: row;
@@ -411,10 +419,11 @@ footer {
     border-radius: 1.5rem;
     width: 10%;
   }
-
+  /*--------------Log-in---------------*/
   #log {
     width: 90%;
   }
+  /*--------------Footer---------------*/
   footer {
     width: 100%;
   }
@@ -426,9 +435,11 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  /*--------------Header---------------*/
   header {
     width: 100%;
   }
+  /*--------------Navigation Bar---------------*/
   .nav-bar {
     width: 100%;
     display: flex;
@@ -472,9 +483,11 @@ footer {
     padding: 1.5rem;
     border-radius: 1.5rem;
   }
+  /*--------------Log-in---------------*/
   #log {
     width: 100%;
   }
+  /*--------------Footer---------------*/
   footer {
     display: flex;
     flex-direction: column;
