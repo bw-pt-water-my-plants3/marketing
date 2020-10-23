@@ -69,12 +69,20 @@ html{
   color: white;
   border-radius: 1.5rem;
 }
+.nav-bar #home:hover {
+  background: black;
+  color: #4ec274;
+}
 .nav-bar #about {
   margin: 0 1.5rem;
   padding: 1.5rem;
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+}
+.nav-bar #about:hover {
+  background: black;
+  color: #4ec274;
 }
 .nav-bar #mission {
   margin: 0 1.5rem;
@@ -83,12 +91,20 @@ html{
   color: white;
   border-radius: 1.5rem;
 }
+.nav-bar #mission:hover {
+  background: black;
+  color: #4ec274;
+}
 .nav-bar #recommend {
   margin: 0 1.5rem;
   padding: 1.5rem;
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+}
+.nav-bar #recommend:hover {
+  background: black;
+  color: #4ec274;
 }
 .nav-bar #pom {
   margin: 0 1.5rem;
@@ -97,12 +113,20 @@ html{
   color: white;
   border-radius: 1.5rem;
 }
+.nav-bar #pom:hover {
+  background: black;
+  color: #4ec274;
+}
 .nav-bar #contact {
   margin: 0 1.5rem;
   padding: 1.5rem;
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+}
+.nav-bar #contact:hover {
+  background: black;
+  color: #4ec274;
 }
 #header-img {
   margin : 1.5rem;

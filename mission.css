@@ -70,12 +70,20 @@ html{
     color: white;
     border-radius: 1.5rem;
 }
+.nav-bar .home:hover {
+    background: black;
+    color: #4ec274;
+}
 .nav-bar .about {
     margin: 0 1.5rem;
     padding: 1.5rem;
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+}
+.nav-bar .about:hover {
+    background: black;
+    color: #4ec274;
 }
 .nav-bar .mission {
     margin: 0 1.5rem;
@@ -84,12 +92,20 @@ html{
     color: white;
     border-radius: 1.5rem;
 }
+.nav-bar .mission:hover {
+    background: black;
+    color: #4ec274;
+}
 .nav-bar .recommend {
     margin: 0 1.5rem;
     padding: 1.5rem;
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+}
+.nav-bar .recommend:hover {
+    background: black;
+    color: #4ec274;
 }
 .nav-bar .pom {
     margin: 0 1.5rem;
@@ -98,12 +114,20 @@ html{
     color: white;
     border-radius: 1.5rem;
 }
+.nav-bar .pom:hover {
+    background: black;
+    color: #4ec274;
+}
 .nav-bar .contact {
     margin: 0 1.5rem;
     padding: 1.5rem;
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+}
+.nav-bar .contact:hover {
+    background: black;
+    color: #4ec274;
 }
 
 #header-img {
@@ -290,45 +314,45 @@ footer {
       }
       .nav-bar .home {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 12%;
+        width: 10%;
       }
       .nav-bar .about {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 12%;        
+        width: 10%;        
       }
       .nav-bar .mission {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 12%;
       }
       .nav-bar .recommend {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 13%;
       }
       .nav-bar .pom {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 12%;
+        width: 10%;
       }
       .nav-bar .contact {
         text-align: center;
-        margin: 1rem 1rem;
+        margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 12%;
+        width: 10%;
       }
     #log {
         width: 87%;
@@ -466,5 +490,4 @@ footer {
         border-radius: 1.5rem;
         width: 80%;
       }
-    
 }
