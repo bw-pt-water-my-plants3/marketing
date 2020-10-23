@@ -511,7 +511,7 @@ footer {
   footer .nav-bar #home:hover {
     background: none;
     color:white;
-}
+  }
   footer .nav-bar #about {
     text-align: center;
     margin: 0 1rem;
@@ -522,7 +522,7 @@ footer {
   footer .nav-bar #about:hover {
     background: none;
     color:white;
-}
+  }
   footer .nav-bar #mission {
     text-align: center;
     margin: 0 1rem;
@@ -533,7 +533,7 @@ footer {
   footer .nav-bar #mission:hover {
     background: none;
     color:white;
-}
+  }
   footer .nav-bar #recommend {
     text-align: center;
     margin: 0 1rem;
@@ -544,7 +544,7 @@ footer {
   footer .nav-bar #recommend:hover {
     background: none;
     color:white;
-}
+  } 
   footer .nav-bar #pom {
     text-align: center;
     margin: 0 1rem;
@@ -555,7 +555,7 @@ footer {
   footer .nav-bar #pom:hover {
     background: none;
     color:white;
-}
+  }
   footer .nav-bar #contact {
     text-align: center;
     margin: 0 1rem;
@@ -566,5 +566,5 @@ footer {
   footer .nav-bar #contact:hover {
     background: none;
     color:white;
-}
+  }
 }
