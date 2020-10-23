@@ -65,13 +65,12 @@ html{
 }
 .nav-bar {
     margin: 2rem;
-}
-nav {
     width: 80%;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
+
 .nav-bar .home {
     margin: 0 1.5rem;
     padding: 1.5rem;
@@ -223,7 +222,7 @@ footer {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        margin: 2%;
+        margin: 0 2%;
         width: 30%;
     }
     .nav-bar .home {
@@ -277,36 +276,42 @@ footer {
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
     footer .nav-bar .about {
         margin: 1rem 8rem;
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
     footer .nav-bar .mission {
         margin: 1rem 8rem;
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
     footer .nav-bar .recommend {
         margin: 1rem 8rem;
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
     footer .nav-bar .pom {
         margin: 1rem 8rem;
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
     footer .nav-bar .contact {
         margin: 1rem 8rem;
         padding: 1.5rem;
         width: 30%;
         text-align: center;
+        color: darkgreen;
     }
 }
 @media (min-width: 800px) {
@@ -332,67 +337,43 @@ footer {
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;
+        width: 10%;
       }
-      footer .nav-bar .home:hover {
-        background: none;
-        color:white;
-    }
       .nav-bar .about {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;        
+        width: 10%;        
       }
-      footer .nav-bar .about:hover {
-        background: none;
-        color:white;
-    }
       .nav-bar .mission {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;
+        width: 10%;
       }
-      footer .nav-bar .mission:hover {
-        background: none;
-        color:white;
-    }
       .nav-bar .recommend {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;
+        width: 12%;
       }
-      footer .nav-bar .recommend:hover {
-        background: none;
-        color:white;
-    }
       .nav-bar .pom {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;
+        width: 10%;
       }
-      footer .nav-bar .pom:hover {
-        background: none;
-        color:white;
-    }
       .nav-bar .contact {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        width: 15%;
+        width: 10%;
       }
-      footer .nav-bar .contact:hover {
-        background: none;
-        color:white;
-    }
     #log {
         width: 87%;
     }

@@ -64,6 +64,10 @@ html{
 }
 .nav-bar {
   margin: 2em;
+  width: 80%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 .nav-bar #home {
   margin: 0 1.5rem;
@@ -233,6 +237,9 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  #log {
+    width: 75%;
+  }
   .nav-bar {
     display: flex;
     flex-direction: column;
@@ -242,63 +249,45 @@ footer {
     text-align: center;
     margin: 1rem 8rem;
     padding: 1.5rem;
-    width: 10%;
+    width: 40%;
   }
-  footer .nav-bar #home:hover {
-    background: none;
-    color:white;
-}
+
   .nav-bar #about {
     text-align: center;
     margin: 1rem 8rem;
     padding: 1.5rem;
-    width: 10%
+    width: 40%
   }
-  footer .nav-bar #about:hover {
-    background: none;
-    color:white;
-}
+
 
   .nav-bar #mission {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    width: 10%;
+    width: 40%;
   }
-  footer .nav-bar #mission:hover {
-    background: none;
-    color:white;
-}
+
   .nav-bar #recommend {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    width: 10%;
+    width: 40%;
   }
-  footer .nav-bar #contact:hover {
-    background: none;
-    color:white;
-}
+
   .nav-bar #pom {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    width: 10%;
+    width: 40%;
   }
-  footer .nav-bar #pom:hover {
-    background: none;
-    color:white;
-}
+
   .nav-bar #contact {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    width: 10%
+    width: 40%
   }
-  footer .nav-bar #contact:hover {
-    background: none;
-    color:white;
-}
+
   #plants {
     display: flex;
     flex-wrap: wrap;
@@ -338,6 +327,24 @@ footer {
     margin: 2rem 0;
     width: 100%;
   }
+  footer .nav-bar #home {
+    color: darkgreen;
+  }
+  footer .nav-bar #recommend {
+    color: darkgreen;
+  }
+  footer .nav-bar #pom {
+    color: darkgreen;
+  }
+  footer .nav-bar #mission {
+    color: darkgreen;
+  }
+  footer .nav-bar #about {
+    color: darkgreen;
+  }
+  footer .nav-bar #contact {
+    color: darkgreen;
+  }
 }
 @media (min-width: 800px) {
   body {
@@ -351,68 +358,56 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 99%;
+    width: 100%;
   }
   header .nav-bar #home {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 10%;
   }
-  footer .nav-bar #home:hover {
-    background: none;
-    color:white;
-}
+
   header .nav-bar #about {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 10%;
   }
-  footer .nav-bar #about:hover {
-    background: none;
-    color:white;
-}
+
   header .nav-bar #mission {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 10%;
   }
-  footer .nav-bar #mission:hover {
-    background: none;
-    color:white;
-}
+
   header .nav-bar #recommend {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 12%;
   }
-  footer .nav-bar #recommend:hover {
-    background: none;
-    color:white;
-}
+
   header .nav-bar #pom {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 10%;
   }
-  footer .nav-bar #pom:hover {
-    background: none;
-    color:white;
-}
+
   header .nav-bar #contact {
     text-align: center;
     margin: 1rem 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    width: 10%;
   }
-  footer .nav-bar #contact:hover {
-    background: none;
-    color:white;
-}
+
   #log {
     width: 90%;
   }
