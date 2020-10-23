@@ -107,7 +107,7 @@ html{
 }
 
 #header-img {
-    margin : 1.5rem;
+    margin : 2rem 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,8 +292,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -301,8 +299,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 12%;        
       }
@@ -310,8 +306,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -319,8 +313,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 13%;
       }
@@ -328,8 +320,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
@@ -337,13 +327,11 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 12%;
       }
     #log {
-        width: 90%;
+        width: 87%;
     }
     #header-img {
         width: 90%;
@@ -440,8 +428,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -449,8 +435,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -458,8 +442,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -467,8 +449,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -476,8 +456,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
@@ -485,8 +463,6 @@ footer {
         text-align: center;
         margin: 1rem 1rem;
         padding: 1.5rem;
-        background: #4ec274;
-        color: white;
         border-radius: 1.5rem;
         width: 80%;
       }
