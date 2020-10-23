@@ -66,7 +66,6 @@ div.logins a {
     margin: 8px;
     align-self: center;
     font-size: .9rem;
-    font-weight: bold;
     color: #4EC274;
 }
 
@@ -74,63 +73,50 @@ div.logins a {
     color: darkgreen;
 }
 
-div.logins button {
+div.logins #Signup {
     height: 35px;
     font-weight: bold;
     margin-right: 16px;
-}
-
-section.introduction {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    margin: 0, auto;
-}
-
-h1 {
-    display: flex;
-    width: 100%;
-    font-size: 2.5rem;
-    font-weight: bold;
+    align-self: center;
     justify-content: center;
-    margin: 10px 0;
 }
 
-section.introduction div {
+.topText {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     font-size: 1.6rem;
+    text-align: center;
     line-height: 2rem;
     justify-content: center;
-    margin: 0% auto;
+    margin: 3% auto;
 }
-
-.join .bimg{
-    width: 80%;
+.bigContainer {
+    width: 100%;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.bigContainer div {
+    width: 28%;
+    margin: 1%;
+}
+
+.bigContainer div p {
+    width: 100%;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 20px auto;
-    padding: 9rem 0;
-    background-image: url("Assets/join.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    justify-content: center;
-    align-items: center;
 }
 
-.bimg button {
-    width: 10%;
-    font-size: 1.6rem;
-    color: white;
-    background-color: #4EC274;
-    border: solid white 3px;
-    border-radius: 1.5rem;
+p span {
+    font-weight: bold;
 }
 
-.bimg button:hover {
-    background-color: green;
+.bigContainer div img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer nav {
@@ -141,6 +127,7 @@ footer nav {
     background-color: #4EC274;
     padding: 1.8rem 0;
     line-height: 2rem;
+    margin-top: 2%;
 }
 
 footer nav a {
@@ -152,11 +139,10 @@ footer nav a:hover {
 }
 
 @media (max-width: 1024px) {
-    @media (max-width: 1024px) {
-        header nav .navbar {
-            width: 90%;
-        }
-        
+    header nav .navbar {
+        width: 90%;
+    }
+
     header nav .navbar a {
         width: 18%;
         margin-left: 2px;
@@ -178,10 +164,6 @@ footer nav a:hover {
         justify-content: center;
         align-items: center;
     }
-
-    .join .bimg button {
-        width: 15%;
-    }
 }
 
 @media (max-width: 500px) {
@@ -199,16 +181,3 @@ footer nav a:hover {
         padding: 5px;
         margin: 2px 5px 2px 5px;
     }
-
-    section.introduction div {
-        width: 80%;
-    }
-
-    .join .bimg {
-        width: 100%;
-    }
-
-    .join .bimg button {
-        width: 22%;
-    }
-}
