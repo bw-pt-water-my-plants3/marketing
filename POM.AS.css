@@ -11,13 +11,24 @@ body {
     width: 100%;
     font-size: 10px;
     font-family: 'Cabin', sans-serif;
+    text-decoration: none;
 }
 
 header {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     padding-top: 35px;
+}
+
+header div p {
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 1rem;
 }
 
 nav {
@@ -37,11 +48,12 @@ nav {
 
 header nav .navbar a {
     width: 15%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    align-self: center;
     margin: 5px 10px 0px 10px;   
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: #4EC274;
     padding: 10px;
     border-radius: 1.5rem;
@@ -58,15 +70,15 @@ div.logins {
     justify-content: flex-end;
     align-self: flex-end;
     width: 100%;
-    padding-bottom: 10px;
     border-bottom: solid black 4px;
 }
 
 div.logins a {
-    margin: 8px;
+    margin: .8rem;
     align-self: center;
-    font-size: .9rem;
+    font-size: 1rem;
     color: #4EC274;
+    text-decoration: none;
 }
 
 .logins a:hover {
@@ -74,11 +86,18 @@ div.logins a {
 }
 
 div.logins #Signup {
-    height: 35px;
     font-weight: bold;
-    margin-right: 16px;
+    color: white;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    background-color: #4EC274;
     align-self: center;
     justify-content: center;
+}
+
+div.logins #Signup:hover {
+    color: #4EC274;
+    background-color: black;
 }
 
 .topText {
@@ -132,6 +151,7 @@ footer nav {
 
 footer nav a {
     color: darkgreen;
+    text-decoration: none;
 }
 
 footer nav a:hover {
@@ -181,3 +201,4 @@ footer nav a:hover {
         padding: 5px;
         margin: 2px 5px 2px 5px;
     }
+}

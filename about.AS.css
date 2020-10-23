@@ -15,9 +15,19 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     padding-top: 35px;
+}
+
+header div p {
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 1rem;
 }
 
 nav {
@@ -37,11 +47,12 @@ nav {
 
 header nav .navbar a {
     width: 15%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    align-self: center;
     margin: 5px 10px 0px 10px;   
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: #4EC274;
     padding: 10px;
     border-radius: 1.5rem;
@@ -68,16 +79,27 @@ div.logins a {
     font-size: .9rem;
     font-weight: bold;
     color: #4EC274;
+    text-decoration: none;
 }
 
 .logins a:hover {
     color: darkgreen;
 }
 
-div.logins button {
-    height: 35px;
+div.logins #Signup {
     font-weight: bold;
+    color: white;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    background-color: #4EC274;
     margin-right: 16px;
+    align-self: center;
+    justify-content: center;
+}
+
+div.logins #Signup:hover {
+    color: #4EC274;
+    background-color: black;
 }
 
 section.introduction {
@@ -87,15 +109,6 @@ section.introduction {
     margin: 0, auto;
 }
 
-h1 {
-    display: flex;
-    width: 100%;
-    font-size: 2.5rem;
-    font-weight: bold;
-    justify-content: center;
-    margin: 10px 0;
-}
-
 section.introduction div {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +116,7 @@ section.introduction div {
     font-size: 1.6rem;
     line-height: 2rem;
     justify-content: center;
-    margin: 0% auto;
+    margin: 3% auto;
 }
 
 .join .bimg{
@@ -145,6 +158,7 @@ footer nav {
 
 footer nav a {
     color: darkgreen;
+    text-decoration: none;
 }
 
 footer nav a:hover {
