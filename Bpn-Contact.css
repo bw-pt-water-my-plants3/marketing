@@ -1,618 +1,633 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-
-/* CODING STARTS RIGHT HERE */
-
-body {
-    font-family: 'Cabin', sans-serif;
-    font-size: 16px;
-}
-
-#heading {
-    background: white;
-    padding: 12px;
-    height: 200px;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tabs {
-    font-size: 25px;
-    height: 150px;
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.tabs a {
-    border: green;
-    color: black;
-    background-color: #4Ec274;
-    padding: 15px 33px;
-    border-style: 2px solid;
-    border-radius: 1.5rem;
-    font-style: normal;
-    align-items: center;
-}
-
-.tabs a:hover {
-    background-color: black;
-    color: #4Ec274;
-}
-
-.login {
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
-    width: 9%;
-    background-color: #4EC274;
-}
-
-.login a {
-    margin: 10px;
-    align-self: center;
-    font-size: 18px;
-    color: darkgreen;
-}
-
-.login button {
-    height: 45px;
-    font-weight: bold;
-    width: 90px;
-}
-
-.topimage {
-    height: 50em;
-    background-image: url("../marketing/pics/panaroma.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.topimage h3 {
-    margin: 25px;
-    font-size: 40px;
-    text-shadow: 2px 2px 5px black;
-}
-
-.topimage p {
-    margin-bottom: 15px;
-    font-size: 25px;
-}
-
-.topimage p:hover {
-    font-size: 32px;
-    background-color: honeydew;
-    background-blend-mode: soft-light;
-}
-
-.topimage button {
-    width: 200px;
-    padding: 17px;
-    color: green;
-    font: bolder;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-}
-
-.lastone {
-    height: 235px;
-    padding: 15px;
-    margin-bottom: 10px;
-}
-
-.lastone:hover {
-    background-color: rgb(164, 226, 170);
-}
-
-.footertabs {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    background-color: #4EC274;
-}
-
-.footertabs a {
-    margin-top: 7px;
-    padding: 18px 0;
-    line-height: 5px;
-    font-size: 22px;
-    color: darkgreen;
-}
-
-.footertabs a:hover {
-    color: white;
-}
-
-h2 {
-    font-size: 35px;
-    margin: 7px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 20px;
-    margin: 5px;
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 16px;
-    }
-    #heading {
-        background: white;
-        padding: 12px;
-        height: 200px;
-        margin-bottom: 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .tabs {
-        font-size: 25px;
-        height: 150px;
-        width: 55%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .tabs a {
-        border: green;
-        color: black;
-        background-color: #4Ec274;
-        padding: 15px 33px;
-        border-style: 2px solid;
-        border-radius: 1.5rem;
-        font-style: normal;
-        align-items: center;
-    }
-    .tabs a:hover {
-        background-color: black;
-        color: #4Ec274;
-    }
-    .login {
-        display: flex;
-        justify-content: flex-end;
-        align-self: flex-end;
-        width: 9%;
-        background-color: #4EC274;
-    }
-    .login a {
-        margin: 10px;
-        align-self: center;
-        font-size: 18px;
-        color: darkgreen;
-    }
-    .login button {
-        height: 45px;
-        font-weight: bold;
-        width: 90px;
-    }
-    .topimage {
-        height: 50em;
-        background-image: url("../marketing/pics/panaroma.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-    .topimage h3 {
-        margin: 25px;
-        font-size: 40px;
-        text-shadow: 2px 2px 5px black;
-    }
-    .topimage p {
-        margin-bottom: 15px;
-        font-size: 25px;
-    }
-    .topimage p:hover {
-        font-size: 32px;
-        background-color: honeydew;
-        background-blend-mode: soft-light;
-    }
-    .topimage h3:hover {
-        font-size: 40px;
-        color: #4Ec274;
-        background-color: honeydew;
-    }
-    .topimage button {
-        width: 200px;
-        padding: 17px;
-        color: green;
-        font: bolder;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15px;
-    }
-    .lastone {
-        height: 235px;
-        padding: 15px;
-        margin-bottom: 10px;
-    }
-    .lastone:hover {
-        background-color: rgb(164, 226, 170);
-    }
-    .footertabs {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-flow: column;
-        text-align: center;
-        background-color: #4EC274;
-    }
-    .footertabs a {
-        margin-top: 7px;
-        padding: 18px 0;
-        line-height: 5px;
-        font-size: 22px;
-        color: darkgreen;
-    }
-    .footertabs a:hover {
-        color: white;
-    }
-    h2 {
-        font-size: 35px;
-        margin: 7px;
-        font-weight: bold;
-    }
-    p {
-        font-size: 20px;
-        margin: 5px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 7px;
-    }
-    #heading {
-        background: white;
-        padding: 6px;
-        height: 60x;
-        margin-bottom: px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .tabs {
-        font-size: 25px;
-        height: 150px;
-        width: 55%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .tabs a {
-        border: green;
-        color: black;
-        background-color: #4Ec274;
-        padding: 15px 33px;
-        border-style: 2px solid;
-        border-radius: 1.5rem;
-        font-style: normal;
-        align-items: center;
-    }
-    .tabs a:hover {
-        background-color: black;
-        color: #4Ec274;
-    }
-    .login {
-        display: flex;
-        justify-content: flex-end;
-        align-self: flex-end;
-        width: 9%;
-        background-color: #4EC274;
-    }
-    .login a {
-        margin: 10px;
-        align-self: center;
-        font-size: 18px;
-        color: darkgreen;
-    }
-    .login button {
-        height: 45px;
-        font-weight: bold;
-        width: 90px;
-    }
-    .topimage {
-        height: 50em;
-        background-image: url("../marketing/pics/panaroma.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-    .topimage h3 {
-        margin: 25px;
-        font-size: 40px;
-        text-shadow: 2px 2px 5px black;
-    }
-    .topimage p {
-        margin-bottom: 15px;
-        font-size: 25px;
-    }
-    .topimage p:hover {
-        font-size: 32px;
-        background-color: honeydew;
-        background-blend-mode: soft-light;
-    }
-    .topimage h3:hover {
-        font-size: 40px;
-        color: #4Ec274;
-        background-color: honeydew;
-    }
-    .topimage button {
-        width: 200px;
-        padding: 17px;
-        color: green;
-        font: bolder;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15px;
-    }
-    .lastone {
-        height: 235px;
-        padding: 15px;
-        margin-bottom: 10px;
-    }
-    .lastone:hover {
-        background-color: rgb(164, 226, 170);
-    }
-    .footertabs {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-flow: column;
-        text-align: center;
-        background-color: #4EC274;
-    }
-    .footertabs a {
-        margin-top: 7px;
-        padding: 18px 0;
-        line-height: 5px;
-        font-size: 22px;
-        color: darkgreen;
-    }
-    .footertabs a:hover {
-        color: white;
-    }
-    h2 {
-        font-size: 35px;
-        margin: 7px;
-        font-weight: bold;
-    }
-    p {
-        font-size: 20px;
-        margin: 5px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 4px;
-    }
-    #heading {
-        background: white;
-        padding: 4px;
-        height: 50px;
-        margin-bottom: 1.5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .tabs {
-        font-size: 6.5px;
-        height: 40px;
-        width: 55%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .tabs a {
-        border: green;
-        color: black;
-        background-color: #4Ec274;
-        padding: 4px 9px;
-        border-style: 1px solid;
-        border-radius: 0.5rem;
-        align-items: center;
-    }
-    .tabs a:hover {
-        background-color: black;
-        color: #4Ec274;
-    }
-    .login {
-        display: flex;
-        justify-content: flex-end;
-        align-self: flex-end;
-        width: 9%;
-        background-color: #4EC274;
-    }
-    .login a {
-        margin: 3px;
-        align-self: center;
-        font-size: 6px;
-        color: darkgreen;
-    }
-    .login button {
-        font-size: 6px;
-        height: 14px;
-        width: 24px;
-    }
-    .topimage {
-        height: 50em;
-        background-image: url("../marketing/pics/panaroma.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 4px;
-    }
-    .topimage h3 {
-        margin: 7px;
-        font-size: 11px;
-        text-shadow: 2px 2px 5px black;
-    }
-    .topimage p {
-        margin-bottom: 4px;
-        font-size: 7px;
-    }
-    .topimage p:hover {
-        font-size: 9px;
-        background-color: honeydew;
-        background-blend-mode: soft-light;
-    }
-    .topimage h3:hover {
-        font-size: 12px;
-        color: #4Ec274;
-        background-color: honeydew;
-    }
-    .topimage button {
-        width: 53px;
-        padding: 4.5px;
-        color: green;
-        font: bolder;
-        font-size: 5.5px;
-        text-align: center;
-        margin-top: 4px;
-    }
-    .lastone {
-        height: 62px;
-        padding: 4px;
-        margin-bottom: 3px;
-    }
-    .lastone:hover {
-        background-color: rgb(164, 226, 170);
-    }
-    .footertabs {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        flex-flow: column;
-        text-align: center;
-        background-color: #4EC274;
-    }
-    .footertabs a {
-        margin-top: 7px;
-        padding: 2px 0;
-        line-height: 1.5px;
-        font-size: 6px;
-        color: darkgreen;
-    }
-    .footertabs a:hover {
-        color: white;
-    }
-    h2 {
-        font-size: 10px;
-        margin: 2px;
-        font-weight: bold;
-    }
-    p {
-        font-size: 5.5px;
-        margin: 1.5px;
-    }
-}
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* CODING STARTS RIGHT HERE */
+ 
+ body {
+     width: 100%;
+     font-family: 'Cabin', sans-serif;
+     font-size: 16px;
+ }
+ 
+ #heading {
+     background: white;
+     padding: 12px;
+     height: 200px;
+     margin-bottom: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .headtabs {
+     font-size: 1.56rem;
+     height: 90px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     vertical-align: top;
+     margin: 0 0;
+ }
+ 
+ .headtabs a {
+     border: green;
+     color: white;
+     background-color: #4Ec274;
+     width: 200px;
+     margin: 5px 5px;
+     padding: 10px 20px 10px 20px;
+     border-style: 2px solid;
+     border-radius: 1.4rem;
+     text-decoration: none;
+     text-align: center;
+ }
+ 
+ .headtabs a:hover {
+     background-color: black;
+     color: #4Ec274;
+     text-decoration: none;
+ }
+ 
+ .login {
+     font-size: 1.25rem;
+     align-self: flex-end;
+ }
+ 
+ #topsign {
+     margin: 0 10px;
+     padding: 12px;
+     background: #4ec274;
+     color: white;
+     border-radius: 24px;
+     align-self: flex-end;
+     text-decoration: none;
+ }
+ 
+ #topsign:hover {
+     background-color: black;
+     color: #4Ec274;
+ }
+ 
+ #toplogin {
+     align-self: center;
+     text-decoration: none;
+     color: #4Ec274;
+ }
+ 
+ #toplogin:hover {
+     color: black;
+ }
+ 
+ .topimage {
+     height: 55rem;
+     background-image: url("../marketing/pics/panaroma.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 15px;
+ }
+ 
+ .topimage h3 {
+     margin: 25px;
+     font-size: 2.5rem;
+     text-shadow: 2px 2px 5px black;
+ }
+ 
+ .topimage p {
+     margin-bottom: 15px;
+     font-size: 1.562rem;
+ }
+ 
+ .topimage p:hover {
+     font-size: 2rem;
+     background-color: honeydew;
+     background-blend-mode: soft-light;
+ }
+ 
+ .topimage a {
+     width: 180px;
+     padding: 17px;
+     background-color: #4EC274;
+     color: black;
+     font-size: 1.125rem;
+     text-align: center;
+     margin-top: 15px;
+     text-decoration: none;
+ }
+ 
+ .lastone {
+     height: 235px;
+     padding: 15px;
+     margin-bottom: 10px;
+ }
+ 
+ .lastone:hover {
+     background-color: rgb(164, 226, 170);
+ }
+ 
+ .footertabs {
+     width: 100%;
+     height: 300px;
+     display: flex;
+     flex-flow: column;
+     text-align: center;
+     background-color: #4EC274;
+ }
+ 
+ .footertabs a {
+     margin-top: 7px;
+     padding: 18px 0;
+     line-height: 5px;
+     font-size: 1.375rem;
+     color: darkgreen;
+     text-decoration: none;
+ }
+ 
+ .footertabs a:hover {
+     color: white;
+ }
+ 
+ h1 {
+     font-size: 2.187rem;
+     margin: 7px;
+     font-weight: bold;
+ }
+ 
+ p {
+     font-size: 1.25rem;
+     margin: 5px;
+ }
+ 
+ @media screen and (max-width: 1024px) {
+     #heading {
+         background: white;
+         padding: 8px;
+         height: 110px;
+         margin-bottom: 2px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .headtabs {
+         font-size: 0.875rem;
+         height: 50px;
+         width: 80%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         vertical-align: top;
+         margin: 0 0;
+     }
+     .headtabs a {
+         border: green;
+         color: white;
+         background-color: #4Ec274;
+         margin: 3px 3px;
+         padding: 6px 18px;
+         border-style: 2px solid;
+         border-radius: 1.4rem;
+         text-decoration: none;
+     }
+     .headtabs a:hover {
+         background-color: black;
+         color: #4Ec274;
+         text-decoration: none;
+     }
+     .login {
+         font-size: 0.687rem;
+         align-self: flex-end;
+     }
+     #topsign {
+         margin: 0 6px;
+         padding: 7px;
+         background: #4ec274;
+         color: white;
+         border-radius: 13px;
+         align-self: flex-end;
+         text-decoration: none;
+     }
+     #topsign:hover {
+         background-color: black;
+         color: #4Ec274;
+     }
+     #toplogin {
+         align-self: center;
+         text-decoration: none;
+         color: #4Ec274;
+     }
+     #toplogin:hover {
+         color: black;
+     }
+     .topimage {
+         height: 30rem;
+         background-image: url("../marketing/pics/panaroma.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 9px;
+     }
+     .topimage h3 {
+         margin: 13px;
+         font-size: 1.375rem;
+         text-shadow: 2px 2px 5px black;
+     }
+     .topimage p {
+         margin-bottom: 9px;
+         font-size: 0.875rem;
+     }
+     .topimage p:hover {
+         font-size: 1.125rem;
+         background-color: honeydew;
+         background-blend-mode: soft-light;
+     }
+     .topimage a {
+         width: 97px;
+         padding: 10px;
+         background-color: #4EC274;
+         color: black;
+         font-size: 0.625rem;
+         text-align: center;
+         margin-top: 9px;
+         text-decoration: none;
+     }
+     .lastone {
+         height: 125px;
+         padding: 8px;
+         margin-bottom: 5px;
+     }
+     .lastone:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     .footertabs {
+         width: 100%;
+         height: 160px;
+         display: flex;
+         flex-flow: column;
+         text-align: center;
+         background-color: #4EC274;
+     }
+     .footertabs a {
+         margin-top: 4px;
+         padding: 9px 0;
+         line-height: 2px;
+         font-size: 0.75rem;
+         color: darkgreen;
+         text-decoration: none;
+     }
+     .footertabs a:hover {
+         color: white;
+     }
+     h1 {
+         font-size: 19px;
+         margin: 4px;
+         font-weight: bold;
+     }
+     p {
+         font-size: 0.687rem;
+         margin: 2px;
+     }
+ }
+ 
+ @media screen and (max-width: 800px) {
+     #heading {
+         background: white;
+         padding: 5px;
+         height: 85px;
+         margin-bottom: 2px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .headtabs {
+         font-size: 0.687rem;
+         height: 38px;
+         width: 80%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         vertical-align: top;
+         margin: 0 0;
+     }
+     .headtabs a {
+         border: green;
+         color: white;
+         background-color: #4Ec274;
+         margin: 2px 2px;
+         padding: 4px 13px;
+         border-style: 2px solid;
+         border-radius: 1.4rem;
+         text-decoration: none;
+     }
+     .headtabs a:hover {
+         background-color: black;
+         color: #4Ec274;
+         text-decoration: none;
+     }
+     .login {
+         font-size: 0.562rem;
+         align-self: flex-end;
+     }
+     #topsign {
+         margin: 0 4px;
+         padding: 5px;
+         background: #4ec274;
+         color: white;
+         border-radius: 10px;
+         align-self: flex-end;
+         text-decoration: none;
+     }
+     #topsign:hover {
+         background-color: black;
+         color: #4Ec274;
+     }
+     #toplogin {
+         align-self: center;
+         text-decoration: none;
+         color: #4Ec274;
+     }
+     #toplogin:hover {
+         color: black;
+     }
+     .topimage {
+         height: 23rem;
+         background-image: url("../marketing/pics/panaroma.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 7px;
+     }
+     .topimage h3 {
+         margin: 11px;
+         font-size: 1rem;
+         text-shadow: 2px 2px 5px black;
+     }
+     .topimage p {
+         margin-bottom: 7px;
+         font-size: 0.687rem;
+     }
+     .topimage p:hover {
+         font-size: 0.875rem;
+         background-color: honeydew;
+         background-blend-mode: soft-light;
+     }
+     .topimage a {
+         width: 75px;
+         padding: 7px;
+         background-color: #4EC274;
+         color: black;
+         font-size: 8px;
+         text-align: center;
+         margin-top: 6px;
+         text-decoration: none;
+     }
+     .lastone {
+         height: 98px;
+         padding: 6px;
+         margin-bottom: 4px;
+     }
+     .lastone:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     .footertabs {
+         width: 100%;
+         height: 125px;
+         display: flex;
+         flex-flow: column;
+         text-align: center;
+         background-color: #4EC274;
+     }
+     .footertabs a {
+         margin-top: 3px;
+         padding: 8px 0;
+         line-height: 2px;
+         font-size: 0.562rem;
+         color: darkgreen;
+         text-decoration: none;
+     }
+     .footertabs a:hover {
+         color: white;
+     }
+     h1 {
+         font-size: 0.937rem;
+         margin: 3px;
+         font-weight: bold;
+     }
+     p {
+         font-size: 0.5rem;
+         margin: 2px;
+     }
+ }
+ 
+ @media screen and (max-width: 500px) {
+     #heading {
+         background: white;
+         padding: 3px;
+         height: 150px;
+         margin-bottom: 1.2px;
+         display: flex;
+         flex-flow: column;
+         align-items: center;
+     }
+     .headtabs {
+         font-size: 0.437rem;
+         height: 120px;
+         width: 55%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+     .headtabs a {
+         border: green;
+         color: white;
+         width: 65px;
+         background-color: #4Ec274;
+         padding: 2px 45px 2px 45px;
+         border-style: 1px solid;
+         border-radius: 0.3rem;
+         align-items: center;
+         text-align: center;
+     }
+     .headtabs a:hover {
+         background-color: black;
+         color: #4Ec274;
+     }
+     .login {
+         font-size: 0.31em;
+         align-self: flex-end;
+     }
+     #topsign:hover {
+         background-color: black;
+         color: #4Ec274;
+     }
+     #toplogin {
+         align-self: center;
+         text-decoration: none;
+         color: #4Ec274;
+     }
+     #toplogin:hover {
+         color: black;
+     }
+     .topimage {
+         height: 15rem;
+         background-image: url("../marketing/pics/panaroma.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 4px;
+     }
+     .topimage h3 {
+         margin: 7px;
+         font-size: 0.687rem;
+         text-shadow: 2px 2px 5px black;
+     }
+     .topimage p {
+         margin-bottom: 4px;
+         font-size: 0.437rem;
+     }
+     .topimage p:hover {
+         font-size: 9px;
+         background-color: honeydew;
+         background-blend-mode: soft-light;
+     }
+     .topimage a {
+         width: 47px;
+         padding: 4.5px;
+         background-color: #4EC274;
+         color: black;
+         font-size: 0.31rem;
+         text-align: center;
+         margin-top: 4px;
+         text-decoration: none;
+     }
+     .lastone {
+         height: 65px;
+         padding: 4px;
+         margin-bottom: 5px;
+     }
+     .lastone:hover {
+         background-color: rgb(164, 226, 170);
+     }
+     .footertabs {
+         width: 100%;
+         height: 80px;
+         display: flex;
+         flex-flow: column;
+         text-align: center;
+         background-color: #4EC274;
+     }
+     .footertabs a {
+         margin-top: 2px;
+         padding: 4.68px 0;
+         line-height: 1.3px;
+         font-size: 0.35rem;
+         color: darkgreen;
+         text-decoration: none;
+     }
+     .footertabs a:hover {
+         color: white;
+     }
+     h1 {
+         font-size: 0.56rem;
+         margin: 1.82px;
+         font-weight: bold;
+     }
+     p {
+         font-size: 0.34rem;
+         margin: 1.3px;
+     }
+ }
