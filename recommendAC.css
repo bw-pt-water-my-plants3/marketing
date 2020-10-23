@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 html{
     box-sizing:border-box;
-
+    font-family: 'Cabin', sans-serif;
     font-size: 62.5%;
   }
   *,*:before,*:after{
@@ -37,14 +37,15 @@ html{
   justify-content: center;
 }
 #header-box .statement {
-  padding: 1em; 
+  padding: 1rem; 
   font-size: 3em;
 }
 #log { 
   font-size: 1.6em;
+  border-bottom: 4px solid black;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-self: flex-end;
 }
 #log-in {
   margin: 0 1.5rem;
@@ -53,9 +54,10 @@ html{
   text-decoration: none;
   color: white;
   border-radius: 1.5rem;
-  align-self: flex-end
+  align-self: flex-end;
 }
 #sign-in {
+  align-self: center;
   text-decoration: none;
   color: black;
 }
@@ -68,6 +70,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #home:hover {
   background: black;
@@ -79,6 +82,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #about:hover {
   background: black;
@@ -90,6 +94,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #mission:hover {
   background: black;
@@ -101,6 +106,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #recommend:hover {
   background: black;
@@ -112,6 +118,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #pom:hover {
   background: black;
@@ -123,6 +130,7 @@ html{
   background: #4ec274;
   color: white;
   border-radius: 1.5rem;
+  text-decoration: none;
 }
 .nav-bar #contact:hover {
   background: black;
@@ -145,7 +153,6 @@ html{
 #plants p {
   font-size: 1.6em;
 }
-
 #plants #snake {
   width: 25%;
   display: flex;
@@ -160,7 +167,6 @@ html{
   align-items: center;
   justify-content: center;
 }
-
 #plants #lily {
   width: 25%;
   display: flex;
@@ -212,7 +218,7 @@ footer {
   align-items: center;
 }
 .footer-statement {
-  padding: 1em;
+  padding: 1rem;
   font-size: 3em;
   display: flex;
   align-items: center;
@@ -235,37 +241,37 @@ footer {
     text-align: center;
     margin: 1rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%;
   }
   .nav-bar #about {
     text-align: center;
     margin: 1rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%
   }
   .nav-bar #mission {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%;
   }
   .nav-bar #recommend {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%;
   }
   .nav-bar #pom {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%;
   }
   .nav-bar #contact {
     text-align: center;
     margin: .5rem 8rem;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    width: 10%
   }
   #plants {
     display: flex;
@@ -273,36 +279,27 @@ footer {
   }
   #plants #snake {
     width: 50%;
-
   }
   #plants #spider {
     width: 50%;
-
-  }
-  
+  } 
   #plants #lily {
     width: 50%;
-
   }
   #plants #succulent {
     width: 50%;
-
   }
   #plants #cast {
     width: 50%;
-
   }
   #plants #palm {
     width: 50%;
-
   }
   #plants #orchid {
     width: 50%;
-
   }
   #plants #aloe {
     width: 50%;
-
   }
   footer {
     display: flex;
@@ -315,7 +312,6 @@ footer {
     margin: 2rem 0;
     width: 100%;
   }
-
 }
 @media (min-width: 800px) {
   body {
@@ -373,7 +369,6 @@ footer {
   footer {
     width: 100%;
   }
-
 }
 @media (min-width: 1024px) {
   body {

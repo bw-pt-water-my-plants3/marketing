@@ -38,11 +38,12 @@ html{
     align-items: center;
 }
 #header-box .statement {
-    padding: 1em; 
+    padding: 1rem; 
     font-size: 3em;
 }
 #log {
     font-size: 1.6em;
+    border-bottom: 4px solid black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -53,14 +54,16 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
-    align-self: flex-end
+    align-self: flex-end;
+    text-decoration: none;
 }
 #sign-in {
+    align-self: center;
     text-decoration: none;
     color: black;
 }
 .nav-bar {
-    margin: 2em;
+    margin: 2rem;
 }
 .nav-bar .home {
     margin: 0 1.5rem;
@@ -68,6 +71,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .home:hover {
     background: black;
@@ -79,6 +83,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .about:hover {
     background: black;
@@ -90,6 +95,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .mission:hover {
     background: black;
@@ -101,6 +107,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .recommend:hover {
     background: black;
@@ -112,6 +119,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .pom:hover {
     background: black;
@@ -123,6 +131,7 @@ html{
     background: #4ec274;
     color: white;
     border-radius: 1.5rem;
+    text-decoration: none;
 }
 .nav-bar .contact:hover {
     background: black;
@@ -137,7 +146,7 @@ html{
 #mission-statement{
     background: white;
     font-size: 1.6em;
-    padding: 2em;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,22 +160,22 @@ html{
     flex-direction: column;
 }
 #user-quotes #quote {
-    padding: 2em;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #user-quotes #quote2 {
-    padding: 2em;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 #user-quotes #quote3 {
-    padding: 2em;
+    padding: 2rem;
 }
 #user-quotes #quote4 {
-    padding: 2em;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,8 +189,8 @@ footer {
     align-items: center;
 }
 .footer-statement {
-    padding: 1em;
-    font-size: 3em;
+    padding: 1rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
