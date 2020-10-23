@@ -1,0 +1,570 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*------------------------------------------------------------------------------*/
+
+html{
+    box-sizing:border-box;
+    font-family: 'Cabin', sans-serif;
+    font-size: 62.5%;
+  }
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+/*--------------Header---------------*/
+#header-box {
+  font-size: 1.2em;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#header-box .statement {
+  padding-top: 1rem; 
+  font-size: 3em;
+}
+#log { 
+  font-size: 1em;
+  padding-bottom: .8rem;
+  border-bottom: 4px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+#log-in {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  text-decoration: none;
+  color: white;
+  border-radius: 1.5rem;
+  align-self: flex-end;
+}
+#log-in:hover {
+  background: black;
+  color: #4ec274;
+}
+#sign-in {
+  align-self: center;
+  text-decoration: none;
+  color: black;
+}
+/*--------------Navigation Bar---------------*/
+.nav-bar {
+  margin: 2em;
+  width: 80%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.nav-bar #home {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #home:hover {
+  background: black;
+  color: #4ec274;
+}
+.nav-bar #about {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #about:hover {
+  background: black;
+  color: #4ec274;
+}
+.nav-bar #mission {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #mission:hover {
+  background: black;
+  color: #4ec274;
+}
+.nav-bar #recommend {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #recommend:hover {
+  background: black;
+  color: #4ec274;
+}
+.nav-bar #pom {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #pom:hover {
+  background: black;
+  color: #4ec274;
+}
+.nav-bar #contact {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: #4ec274;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar #contact:hover {
+  background: black;
+  color: #4ec274;
+}
+/*--------------Header Image---------------*/
+#header-img {
+  margin : 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*--------------Body Statement---------------*/
+#header {
+  font-size: 2em;
+  border-bottom: 1px solid black
+}
+/*--------------Body Statements/Images---------------*/
+#plants {
+  display: flex;
+  flex-wrap: wrap;
+}
+#plants p {
+  font-size: 1.6em;
+}
+#plants #snake {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #spider {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #lily {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #succulent {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #cast {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #palm {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #orchid {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#plants #aloe {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*--------------Footer---------------*/
+footer {
+  font-size: 1.6em;
+  background: #4ec274;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-statement {
+  padding: 1rem;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*--------------Media Queries @ 500px, 800px, and 1024px---------------*/
+@media (min-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*--------------Header---------------*/
+  #log {
+    width: 75%;
+  }
+  /*--------------Navigation Bar---------------*/
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .nav-bar #home {
+    text-align: center;
+    margin: 1rem 8rem;
+    padding: 1.5rem;
+    width: 40%;
+  }
+
+  .nav-bar #about {
+    text-align: center;
+    margin: 1rem 8rem;
+    padding: 1.5rem;
+    width: 40%
+  }
+
+  .nav-bar #mission {
+    text-align: center;
+    margin: .5rem 8rem;
+    padding: 1.5rem;
+    width: 40%;
+  }
+
+  .nav-bar #recommend {
+    text-align: center;
+    margin: .5rem 8rem;
+    padding: 1.5rem;
+    width: 40%;
+  }
+
+  .nav-bar #pom {
+    text-align: center;
+    margin: .5rem 8rem;
+    padding: 1.5rem;
+    width: 40%;
+  }
+
+  .nav-bar #contact {
+    text-align: center;
+    margin: .5rem 8rem;
+    padding: 1.5rem;
+    width: 40%
+  }
+/*--------------Body Images---------------*/
+  #plants {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #plants #snake {
+    width: 50%;
+  }
+  #plants #spider {
+    width: 50%;
+  } 
+  #plants #lily {
+    width: 50%;
+  }
+  #plants #succulent {
+    width: 50%;
+  }
+  #plants #cast {
+    width: 50%;
+  }
+  #plants #palm {
+    width: 50%;
+  }
+  #plants #orchid {
+    width: 50%;
+  }
+  #plants #aloe {
+    width: 50%;
+  }
+  /*--------------Footer---------------*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  footer .nav-bar {
+    margin: 2rem 0;
+    width: 100%;
+  }
+  footer .nav-bar #home {
+    color: darkgreen;
+  }
+  footer .nav-bar #recommend {
+    color: darkgreen;
+  }
+  footer .nav-bar #pom {
+    color: darkgreen;
+  }
+  footer .nav-bar #mission {
+    color: darkgreen;
+  }
+  footer .nav-bar #about {
+    color: darkgreen;
+  }
+  footer .nav-bar #contact {
+    color: darkgreen;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*--------------Header Navigation Bar---------------*/
+  header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  header .nav-bar #home {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 10%;
+  }
+
+  header .nav-bar #about {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 10%;
+  }
+
+  header .nav-bar #mission {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 10%;
+  }
+
+  header .nav-bar #recommend {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 12%;
+  }
+
+  header .nav-bar #pom {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 10%;
+  }
+
+  header .nav-bar #contact {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 10%;
+  }
+  /*--------------Log-in---------------*/
+  #log {
+    width: 90%;
+  }
+  /*--------------Footer---------------*/
+  footer {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*--------------Header---------------*/
+  header {
+    width: 100%;
+  }
+  /*--------------Navigation Bar---------------*/
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-bar #home {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  .nav-bar #about {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  .nav-bar #mission {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  .nav-bar #recommend {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  .nav-bar #pom {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  .nav-bar #contact {
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  /*--------------Log-in---------------*/
+  #log {
+    width: 100%;
+  }
+  /*--------------Footer---------------*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  footer .nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2rem 12rem;
+  }
+  footer .nav-bar #home {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #home:hover {
+    background: none;
+    color:white;
+  }
+  footer .nav-bar #about {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #about:hover {
+    background: none;
+    color:white;
+  }
+  footer .nav-bar #mission {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #mission:hover {
+    background: none;
+    color:white;
+  }
+  footer .nav-bar #recommend {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #recommend:hover {
+    background: none;
+    color:white;
+  } 
+  footer .nav-bar #pom {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #pom:hover {
+    background: none;
+    color:white;
+  }
+  footer .nav-bar #contact {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 80%;
+  }
+  footer .nav-bar #contact:hover {
+    background: none;
+    color:white;
+  }
+}

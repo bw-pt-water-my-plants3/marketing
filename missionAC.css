@@ -1,0 +1,582 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*-------------------------------------------------------------------------------*/
+
+html{
+    box-sizing:border-box;
+    font-size: 62.5%;
+    font-family: 'Cabin', sans-serif;
+  }
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+/*--------------Header---------------*/
+#header-box {
+    padding: 2rem;
+    font-size: 1.2em;   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-box .statement {
+    padding-top: 1rem; 
+    font-size: 3em;
+}
+#log {
+    font-size: 1em;
+    padding-bottom: .8rem;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#log-in {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    align-self: flex-end;
+    text-decoration: none;
+}
+#log-in:hover {
+    background: black;
+    color: #4ec274;
+}
+#sign-in {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+/*--------------Navigation Bar---------------*/
+.nav-bar {
+    margin: 2rem;
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.nav-bar .home {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+.nav-bar .home:hover {
+    background: black;
+    color: #4ec274;
+}
+.nav-bar .about {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+.nav-bar .about:hover {
+    background: black;
+    color: #4ec274;
+}
+.nav-bar .mission {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+.nav-bar .mission:hover {
+    background: black;
+    color: #4ec274;
+}
+.nav-bar .recommend {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+.nav-bar .recommend:hover {
+    background: black;
+    color: #4ec274;
+}
+.nav-bar .pom {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+.nav-bar .pom:hover {
+    background: black;
+    color: #4ec274;
+}
+.nav-bar .contact {
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background: #4ec274;
+    color: white;
+    border-radius: 1.5rem;
+      text-decoration: none;
+}
+.nav-bar .contact:hover {
+    background: black;
+    color: #4ec274;
+}
+/*--------------Header image---------------*/
+#header-img {
+    margin : 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------Mission Statement---------------*/
+#mission-statement{
+    background: white;
+    font-size: 1.6em;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------User Quotes---------------*/
+#user-quotes {
+    background: #969695;
+    font-size: 1.6em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+#user-quotes #quote {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#user-quotes #quote2 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#user-quotes #quote3 {
+    padding: 2rem;
+}
+#user-quotes #quote4 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*--------------Footer ---------------*/
+footer {
+    font-size: 1.6em;
+    background: #4ec274;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-statement {
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------Media Queries @ 500px, 800px, and 1024px---------------*/
+@media (min-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    /*--------------Header---------------*/
+    #header-box {
+        width: 100%;
+    }
+    #log {
+        width: 75%;
+    }
+    /*--------------Navigation Bar---------------*/
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2%;
+        width: 30%;
+    }
+    .nav-bar .home {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    .nav-bar .about {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    .nav-bar .mission {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    .nav-bar .recommend {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    .nav-bar .pom {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    .nav-bar .contact {
+        margin: 1rem 8rem;
+        padding: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    /*--------------Footer---------------*/
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    footer .nav-bar {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    footer .nav-bar .home {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+    footer .nav-bar .about {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+    footer .nav-bar .mission {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+    footer .nav-bar .recommend {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+    footer .nav-bar .pom {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+    footer .nav-bar .contact {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+        color: darkgreen;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    /*--------------Header---------------*/
+    #header-box { 
+        width: 99%;
+    }
+    /*--------------Navigation Bar---------------*/
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-bar .home {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 10%;
+      }
+      .nav-bar .about {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 10%;        
+      }
+      .nav-bar .mission {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 10%;
+      }
+      .nav-bar .recommend {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 12%;
+      }
+      .nav-bar .pom {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 10%;
+      }
+      .nav-bar .contact {
+        text-align: center;
+        margin: 1rem .5rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 10%;
+      }
+    /*--------------Log-in---------------*/
+    #log {
+        width: 87%;
+    }
+    /*--------------Header Image---------------*/
+    #header-img {
+        width: 90%;
+    }
+    /*--------------Mission Statement---------------*/
+    #mission-statement {
+        width: 100%;
+    }
+    /*--------------User Quotes---------------*/
+    #user-quotes {
+        width: 100%;
+    }
+    /*--------------Footer---------------*/
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    footer .nav-bar {
+        width: 99%;
+        margin: 2rem 0;
+    }
+    footer .nav-bar .home {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .home:hover {
+        background: none;
+        color:white;
+    }
+    footer .nav-bar .about {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .about:hover {
+        background: none;
+        color:white;
+    }
+    footer .nav-bar .mission {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .mission:hover {
+        background: none;
+        color:white;
+    }
+    footer .nav-bar .recommend {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .recommend:hover {
+        background: none;
+        color:white;
+    }
+    footer .nav-bar .pom {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .pom:hover {
+        background: none;
+        color:white;
+    }
+    footer .nav-bar .contact {
+        margin: 0 8rem;
+        padding: 1.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    footer .nav-bar .contact:hover {
+        background: none;
+        color:white;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      /*--------------Header---------------*/
+      header {
+        width: 100%;
+      }
+        #log {
+        width: 100%;
+      }
+      /*--------------Navigation Bar---------------*/
+      .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      /*--------------Footer---------------*/
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      footer .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 2rem 12rem;
+      }
+      footer .nav-bar .home {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .home:hover {
+        background: none;
+        color:white;
+    }
+      footer .nav-bar .about {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .about:hover {
+        background: none;
+        color:white;
+    }
+      footer .nav-bar .mission {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .mission:hover {
+        background: none;
+        color:white;
+    }
+      footer .nav-bar .recommend {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .recommend:hover {
+        background: none;
+        color:white;
+    }
+      footer .nav-bar .pom {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .pom:hover {
+        background: none;
+        color:white;
+    }
+      footer .nav-bar .contact {
+        text-align: center;
+        margin: 0 1rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        width: 80%;
+      }
+      footer .nav-bar .contact:hover {
+          background: none;
+          color:white;
+      }
+}
