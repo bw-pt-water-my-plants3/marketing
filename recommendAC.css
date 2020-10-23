@@ -57,6 +57,10 @@ html{
   border-radius: 1.5rem;
   align-self: flex-end;
 }
+#log-in:hover {
+  background: black;
+  color: #4ec274;
+}
 #sign-in {
   align-self: center;
   text-decoration: none;
@@ -486,7 +490,7 @@ footer {
   }
   footer .nav-bar #home {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
@@ -497,7 +501,7 @@ footer {
 }
   footer .nav-bar #about {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
@@ -508,7 +512,7 @@ footer {
 }
   footer .nav-bar #mission {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
@@ -519,7 +523,7 @@ footer {
 }
   footer .nav-bar #recommend {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
@@ -530,7 +534,7 @@ footer {
 }
   footer .nav-bar #pom {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
@@ -541,7 +545,7 @@ footer {
 }
   footer .nav-bar #contact {
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
     width: 80%;
