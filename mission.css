@@ -28,7 +28,6 @@ html{
   *,*:before,*:after{
     box-sizing:inherit;
   }
-
 #header-box {
     padding: 2rem;
     font-size: 1.6em;   
@@ -129,7 +128,6 @@ html{
     background: black;
     color: #4ec274;
 }
-
 #header-img {
     margin : 2rem 5rem;
     display: flex;
@@ -366,7 +364,6 @@ footer {
     #user-quotes {
         width: 100%;
     }
-
     footer {
         display: flex;
         align-items: center;
@@ -431,7 +428,6 @@ footer {
         align-items: center;
         justify-content: center;
       }
-
       #log {
         width: 100%;
       }
