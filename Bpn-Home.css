@@ -157,6 +157,7 @@ body {
 
 .login {
     font-size: 1.25rem;
+    display: flex;
     align-self: flex-end;
 }
 
@@ -369,6 +370,7 @@ p {
     .login {
         font-size: 0.6875rem;
         align-self: flex-end;
+        display: flex;
     }
     #topsign {
         margin: 0 5.3px;
@@ -548,6 +550,7 @@ p {
     .login {
         font-size: 0.5rem;
         align-self: flex-end;
+        display: flex;
     }
     #topsign {
         margin: 0 4px;
@@ -727,6 +730,7 @@ p {
     .login {
         font-size: 0.312rem;
         align-self: flex-end;
+        display: flex;
     }
     #topsign {
         margin: 0 2.6px;
