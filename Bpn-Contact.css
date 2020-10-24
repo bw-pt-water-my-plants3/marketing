@@ -103,6 +103,7 @@
      flex-direction: column;
      align-items: center;
  }
+ /* Navbar for the links*/
  
  .headtabs {
      font-size: 1.56rem;
@@ -133,6 +134,7 @@
      color: #4Ec274;
      text-decoration: none;
  }
+ /* login and sign bars */
  
  .login {
      font-size: 1.25rem;
@@ -163,6 +165,7 @@
  #toplogin:hover {
      color: black;
  }
+ /*basepicture of the contact page*/
  
  .topimage {
      height: 55rem;
@@ -212,6 +215,7 @@
  .lastone:hover {
      background-color: rgb(164, 226, 170);
  }
+ /* Footer with the navbar for the links to other pages*/
  
  .footertabs {
      width: 100%;
@@ -245,6 +249,9 @@
      font-size: 1.25rem;
      margin: 5px;
  }
+ /* END OF THE CONTACT CSS PAGE*/
+ /*--------------------------------------------------------------*/
+ /* RESPONSIVE DESIGN STARTS RIGHT HERE */
  
  @media screen and (max-width: 1024px) {
      #heading {
