@@ -346,49 +346,49 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-      }
+    }
       .nav-bar .home {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 10%;
-      }
+    }
       .nav-bar .about {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 10%;        
-      }
+    }
       .nav-bar .mission {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 10%;
-      }
+    }
       .nav-bar .recommend {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 12%;
-      }
+    }
       .nav-bar .pom {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 10%;
-      }
+    }
       .nav-bar .contact {
         text-align: center;
         margin: 1rem .5rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 10%;
-      }
+    }
     /*--------------Log-in---------------*/
     #log {
         width: 87%;
@@ -483,14 +483,14 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      }
+    }
       /*--------------Header---------------*/
       header {
         width: 100%;
-      }
+    }
         #log {
         width: 100%;
-      }
+    }
       /*--------------Navigation Bar---------------*/
       .nav-bar {
         width: 100%;
@@ -498,7 +498,7 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-      }
+    }
       /*--------------Footer---------------*/
       footer {
         display: flex;
@@ -506,20 +506,20 @@ footer {
         align-items: center;
         justify-content: center;
         width: 100%;
-      }
+    }
       footer .nav-bar {
         display: flex;
         flex-direction: column;
         width: 40%;
         margin: 2rem 12rem;
-      }
+    }
       footer .nav-bar .home {
         text-align: center;
         margin: 0 1rem;
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .home:hover {
         background: none;
         color:white;
@@ -530,7 +530,7 @@ footer {
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .about:hover {
         background: none;
         color:white;
@@ -541,7 +541,7 @@ footer {
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .mission:hover {
         background: none;
         color:white;
@@ -552,7 +552,7 @@ footer {
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .recommend:hover {
         background: none;
         color:white;
@@ -563,10 +563,10 @@ footer {
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .pom:hover {
         background: none;
-        color:white;
+        color:white;    
     }
       footer .nav-bar .contact {
         text-align: center;
@@ -574,9 +574,9 @@ footer {
         padding: 1.5rem;
         border-radius: 1.5rem;
         width: 80%;
-      }
+    }
       footer .nav-bar .contact:hover {
           background: none;
           color:white;
-      }
+    }
 }
