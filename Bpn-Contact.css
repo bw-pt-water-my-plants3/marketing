@@ -1,644 +1,674 @@
- html,
- body,
- div,
- span,
- applet,
- object,
- iframe,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- p,
- blockquote,
- pre,
- a,
- abbr,
- acronym,
- address,
- big,
- cite,
- code,
- del,
- dfn,
- em,
- img,
- ins,
- kbd,
- q,
- s,
- samp,
- small,
- strike,
- strong,
- sub,
- sup,
- tt,
- var,
- b,
- u,
- i,
- center,
- dl,
- dt,
- dd,
- ol,
- ul,
- li,
- fieldset,
- form,
- label,
- legend,
- table,
- caption,
- tbody,
- tfoot,
- thead,
- tr,
- th,
- td,
- article,
- aside,
- canvas,
- details,
- embed,
- figure,
- figcaption,
- footer,
- header,
- hgroup,
- menu,
- nav,
- output,
- ruby,
- section,
- summary,
- time,
- mark,
- audio,
- video {
-     margin: 0;
-     padding: 0;
-     border: 0;
-     font-size: 100%;
-     font: inherit;
-     vertical-align: baseline;
- }
- /* CODING STARTS RIGHT HERE */
- 
- body {
-     width: 100%;
-     font-family: 'Cabin', sans-serif;
-     font-size: 16px;
- }
- 
- #heading {
-     background: white;
-     padding: 12px;
-     height: 200px;
-     margin-bottom: 5px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
- /* Navbar for the links*/
- 
- .headtabs {
-     font-size: 1.56rem;
-     height: 90px;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     vertical-align: top;
-     margin: 0 0;
- }
- 
- .headtabs a {
-     border: green;
-     color: white;
-     background-color: #4Ec274;
-     width: 200px;
-     margin: 5px 5px;
-     padding: 10px 20px 10px 20px;
-     border-style: 2px solid;
-     border-radius: 1.4rem;
-     text-decoration: none;
-     text-align: center;
- }
- 
- .headtabs a:hover {
-     background-color: black;
-     color: #4Ec274;
-     text-decoration: none;
- }
- /* login and sign bars */
- 
- .login {
-     font-size: 1.25rem;
-     display: flex;
-     align-self: flex-end;
- }
- 
- #topsign {
-     margin: 0 10px;
-     padding: 12px;
-     background: #4ec274;
-     color: white;
-     border-radius: 24px;
-     align-self: flex-end;
-     text-decoration: none;
- }
- 
- #topsign:hover {
-     background-color: black;
-     color: #4Ec274;
- }
- 
- #toplogin {
-     align-self: center;
-     text-decoration: none;
-     color: #4Ec274;
- }
- 
- #toplogin:hover {
-     color: black;
- }
- /*basepicture of the contact page*/
- 
- .topimage {
-     height: 55rem;
-     background-image: url("../marketing/pics/panaroma.jpg");
-     background-repeat: no-repeat;
-     background-size: 100%;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin-bottom: 15px;
- }
- 
- .topimage h3 {
-     margin: 25px;
-     font-size: 2.5rem;
-     text-shadow: 2px 2px 5px black;
- }
- 
- .topimage p {
-     margin-bottom: 15px;
-     font-size: 1.562rem;
- }
- 
- .topimage p:hover {
-     font-size: 2rem;
-     background-color: honeydew;
-     background-blend-mode: soft-light;
- }
- 
- .topimage a {
-     width: 180px;
-     padding: 17px;
-     background-color: #4EC274;
-     color: black;
-     font-size: 1.125rem;
-     text-align: center;
-     margin-top: 15px;
-     text-decoration: none;
- }
- 
- .lastone {
-     height: 235px;
-     padding: 15px;
-     margin-bottom: 10px;
- }
- 
- .lastone:hover {
-     background-color: rgb(164, 226, 170);
- }
- /* Footer with the navbar for the links to other pages*/
- 
- .footertabs {
-     width: 100%;
-     height: 300px;
-     display: flex;
-     flex-flow: column;
-     text-align: center;
-     background-color: #4EC274;
- }
- 
- .footertabs a {
-     margin-top: 7px;
-     padding: 18px 0;
-     line-height: 5px;
-     font-size: 1.375rem;
-     color: darkgreen;
-     text-decoration: none;
- }
- 
- .footertabs a:hover {
-     color: white;
- }
- 
- h1 {
-     font-size: 2.187rem;
-     margin: 7px;
-     font-weight: bold;
- }
- 
- p {
-     font-size: 1.25rem;
-     margin: 5px;
- }
- /* END OF THE CONTACT CSS PAGE*/
- /*--------------------------------------------------------------*/
- /* RESPONSIVE DESIGN STARTS RIGHT HERE */
- 
- @media screen and (max-width: 1024px) {
-     #heading {
-         background: white;
-         padding: 8px;
-         height: 110px;
-         margin-bottom: 2px;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
-     .headtabs {
-         font-size: 0.875rem;
-         height: 50px;
-         width: 80%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         vertical-align: top;
-         margin: 0 0;
-     }
-     .headtabs a {
-         border: green;
-         color: white;
-         background-color: #4Ec274;
-         margin: 3px 3px;
-         padding: 6px 18px;
-         border-style: 2px solid;
-         border-radius: 1.4rem;
-         text-decoration: none;
-     }
-     .headtabs a:hover {
-         background-color: black;
-         color: #4Ec274;
-         text-decoration: none;
-     }
-     .login {
-         font-size: 0.687rem;
-         display: flex;
-         align-self: flex-end;
-     }
-     #topsign {
-         margin: 0 6px;
-         padding: 7px;
-         background: #4ec274;
-         color: white;
-         border-radius: 13px;
-         align-self: flex-end;
-         text-decoration: none;
-     }
-     #topsign:hover {
-         background-color: black;
-         color: #4Ec274;
-     }
-     #toplogin {
-         align-self: center;
-         text-decoration: none;
-         color: #4Ec274;
-     }
-     #toplogin:hover {
-         color: black;
-     }
-     .topimage {
-         height: 30rem;
-         background-image: url("../marketing/pics/panaroma.jpg");
-         background-repeat: no-repeat;
-         background-size: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         margin-bottom: 9px;
-     }
-     .topimage h3 {
-         margin: 13px;
-         font-size: 1.375rem;
-         text-shadow: 2px 2px 5px black;
-     }
-     .topimage p {
-         margin-bottom: 9px;
-         font-size: 0.875rem;
-     }
-     .topimage p:hover {
-         font-size: 1.125rem;
-         background-color: honeydew;
-         background-blend-mode: soft-light;
-     }
-     .topimage a {
-         width: 97px;
-         padding: 10px;
-         background-color: #4EC274;
-         color: black;
-         font-size: 0.625rem;
-         text-align: center;
-         margin-top: 9px;
-         text-decoration: none;
-     }
-     .lastone {
-         height: 125px;
-         padding: 8px;
-         margin-bottom: 5px;
-     }
-     .lastone:hover {
-         background-color: rgb(164, 226, 170);
-     }
-     .footertabs {
-         width: 100%;
-         height: 160px;
-         display: flex;
-         flex-flow: column;
-         text-align: center;
-         background-color: #4EC274;
-     }
-     .footertabs a {
-         margin-top: 4px;
-         padding: 9px 0;
-         line-height: 2px;
-         font-size: 0.75rem;
-         color: darkgreen;
-         text-decoration: none;
-     }
-     .footertabs a:hover {
-         color: white;
-     }
-     h1 {
-         font-size: 19px;
-         margin: 4px;
-         font-weight: bold;
-     }
-     p {
-         font-size: 0.687rem;
-         margin: 2px;
-     }
- }
- 
- @media screen and (max-width: 800px) {
-     #heading {
-         background: white;
-         padding: 5px;
-         height: 85px;
-         margin-bottom: 2px;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
-     .headtabs {
-         font-size: 0.687rem;
-         height: 38px;
-         width: 80%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         vertical-align: top;
-         margin: 0 0;
-     }
-     .headtabs a {
-         border: green;
-         color: white;
-         background-color: #4Ec274;
-         margin: 2px 2px;
-         padding: 4px 13px;
-         border-style: 2px solid;
-         border-radius: 1.4rem;
-         text-decoration: none;
-     }
-     .headtabs a:hover {
-         background-color: black;
-         color: #4Ec274;
-         text-decoration: none;
-     }
-     .login {
-         font-size: 0.562rem;
-         display: flex;
-         align-self: flex-end;
-     }
-     #topsign {
-         margin: 0 4px;
-         padding: 5px;
-         background: #4ec274;
-         color: white;
-         border-radius: 10px;
-         align-self: flex-end;
-         text-decoration: none;
-     }
-     #topsign:hover {
-         background-color: black;
-         color: #4Ec274;
-     }
-     #toplogin {
-         align-self: center;
-         text-decoration: none;
-         color: #4Ec274;
-     }
-     #toplogin:hover {
-         color: black;
-     }
-     .topimage {
-         height: 23rem;
-         background-image: url("../marketing/pics/panaroma.jpg");
-         background-repeat: no-repeat;
-         background-size: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         margin-bottom: 7px;
-     }
-     .topimage h3 {
-         margin: 11px;
-         font-size: 1rem;
-         text-shadow: 2px 2px 5px black;
-     }
-     .topimage p {
-         margin-bottom: 7px;
-         font-size: 0.687rem;
-     }
-     .topimage p:hover {
-         font-size: 0.875rem;
-         background-color: honeydew;
-         background-blend-mode: soft-light;
-     }
-     .topimage a {
-         width: 75px;
-         padding: 7px;
-         background-color: #4EC274;
-         color: black;
-         font-size: 8px;
-         text-align: center;
-         margin-top: 6px;
-         text-decoration: none;
-     }
-     .lastone {
-         height: 98px;
-         padding: 6px;
-         margin-bottom: 4px;
-     }
-     .lastone:hover {
-         background-color: rgb(164, 226, 170);
-     }
-     .footertabs {
-         width: 100%;
-         height: 125px;
-         display: flex;
-         flex-flow: column;
-         text-align: center;
-         background-color: #4EC274;
-     }
-     .footertabs a {
-         margin-top: 3px;
-         padding: 8px 0;
-         line-height: 2px;
-         font-size: 0.562rem;
-         color: darkgreen;
-         text-decoration: none;
-     }
-     .footertabs a:hover {
-         color: white;
-     }
-     h1 {
-         font-size: 0.937rem;
-         margin: 3px;
-         font-weight: bold;
-     }
-     p {
-         font-size: 0.5rem;
-         margin: 2px;
-     }
- }
- 
- @media screen and (max-width: 500px) {
-     #heading {
-         background: white;
-         padding: 3px;
-         height: 150px;
-         margin-bottom: 1.2px;
-         display: flex;
-         flex-flow: column;
-         align-items: center;
-     }
-     .headtabs {
-         font-size: 0.437rem;
-         height: 120px;
-         width: 55%;
-         display: flex;
-         flex-flow: column;
-         justify-content: space-evenly;
-         align-items: center;
-     }
-     .headtabs a {
-         border: green;
-         color: white;
-         width: 65px;
-         background-color: #4Ec274;
-         padding: 2px 45px 2px 45px;
-         border-style: 1px solid;
-         border-radius: 0.3rem;
-         align-items: center;
-         text-align: center;
-     }
-     .headtabs a:hover {
-         background-color: black;
-         color: #4Ec274;
-     }
-     .login {
-         font-size: 0.31em;
-         display: flex;
-         align-self: flex-end;
-     }
-     #topsign:hover {
-         background-color: black;
-         color: #4Ec274;
-     }
-     #toplogin {
-         align-self: center;
-         text-decoration: none;
-         color: #4Ec274;
-     }
-     #toplogin:hover {
-         color: black;
-     }
-     .topimage {
-         height: 15rem;
-         background-image: url("../marketing/pics/panaroma.jpg");
-         background-repeat: no-repeat;
-         background-size: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         margin-bottom: 4px;
-     }
-     .topimage h3 {
-         margin: 7px;
-         font-size: 0.687rem;
-         text-shadow: 2px 2px 5px black;
-     }
-     .topimage p {
-         margin-bottom: 4px;
-         font-size: 0.437rem;
-     }
-     .topimage p:hover {
-         font-size: 9px;
-         background-color: honeydew;
-         background-blend-mode: soft-light;
-     }
-     .topimage a {
-         width: 47px;
-         padding: 4.5px;
-         background-color: #4EC274;
-         color: black;
-         font-size: 0.31rem;
-         text-align: center;
-         margin-top: 4px;
-         text-decoration: none;
-     }
-     .lastone {
-         height: 65px;
-         padding: 4px;
-         margin-bottom: 5px;
-     }
-     .lastone:hover {
-         background-color: rgb(164, 226, 170);
-     }
-     .footertabs {
-         width: 100%;
-         height: 80px;
-         display: flex;
-         flex-flow: column;
-         text-align: center;
-         background-color: #4EC274;
-     }
-     .footertabs a {
-         margin-top: 2px;
-         padding: 4.68px 0;
-         line-height: 1.3px;
-         font-size: 0.35rem;
-         color: darkgreen;
-         text-decoration: none;
-     }
-     .footertabs a:hover {
-         color: white;
-     }
-     h1 {
-         font-size: 0.56rem;
-         margin: 1.82px;
-         font-weight: bold;
-     }
-     p {
-         font-size: 0.34rem;
-         margin: 1.3px;
-     }
- }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* CODING STARTS RIGHT HERE */
+
+body {
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+#heading {
+    background: white;
+    padding: 12px;
+    height: 200px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Navbar for the links*/
+
+.headtabs {
+    font-size: 1.56rem;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    margin: 0 0;
+}
+
+.headtabs a {
+    border: green;
+    color: white;
+    background-color: #4Ec274;
+    width: 200px;
+    margin: 5px 5px;
+    padding: 10px 20px 10px 20px;
+    border-style: 2px solid;
+    border-radius: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.headtabs a:hover {
+    background-color: black;
+    color: #4Ec274;
+    text-decoration: none;
+}
+
+
+/* login and sign bars */
+
+.login {
+    font-size: 1.25rem;
+    display: flex;
+    align-self: flex-end;
+}
+
+#topsign {
+    margin: 0 10px;
+    padding: 12px;
+    background: #4ec274;
+    color: white;
+    border-radius: 24px;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+#topsign:hover {
+    background-color: black;
+    color: #4Ec274;
+}
+
+#toplogin {
+    align-self: center;
+    text-decoration: none;
+    color: #4Ec274;
+}
+
+#toplogin:hover {
+    color: black;
+}
+
+
+/*basepicture of the contact page*/
+
+.topimage {
+    position: relative;
+}
+
+.topimage img {
+    width: 100%;
+}
+
+.topimage .content {
+    position: absolute;
+    top: 0;
+    height: 400px;
+    width: 98%;
+    padding: 10px;
+    top: 20%;
+    transform: translate(0, -40%);
+    text-align: center;
+}
+
+.topimage h3 {
+    margin: 25px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.topimage p {
+    margin-bottom: 25px;
+    font-size: 1.562rem;
+}
+
+.topimage a {
+    margin: 50px 15px;
+    width: 2%;
+    padding: 17px;
+    background-color: #4EC274;
+    color: black;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.lastone {
+    height: 235px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.lastone:hover {
+    background-color: rgb(164, 226, 170);
+}
+
+
+/* Footer with the navbar for the links to other pages*/
+
+.footertabs {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #4EC274;
+}
+
+.footertabs a {
+    margin-top: 7px;
+    padding: 18px 0;
+    line-height: 5px;
+    font-size: 1.375rem;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.footertabs a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 2.187rem;
+    margin: 7px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 5px;
+}
+
+
+/* END OF THE CONTACT CSS PAGE*/
+
+
+/*--------------------------------------------------------------*/
+
+
+/* RESPONSIVE DESIGN STARTS RIGHT HERE */
+
+@media screen and (max-width: 1024px) {
+    #heading {
+        background: white;
+        padding: 8px;
+        height: 110px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headtabs {
+        font-size: 0.875rem;
+        height: 50px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: top;
+        margin: 0 0;
+    }
+    .headtabs a {
+        border: green;
+        color: white;
+        background-color: #4Ec274;
+        margin: 3px 3px;
+        padding: 6px 18px;
+        border-style: 2px solid;
+        border-radius: 1.4rem;
+        text-decoration: none;
+    }
+    .headtabs a:hover {
+        background-color: black;
+        color: #4Ec274;
+        text-decoration: none;
+    }
+    .login {
+        font-size: 0.687rem;
+        display: flex;
+        align-self: flex-end;
+    }
+    #topsign {
+        margin: 0 6px;
+        padding: 7px;
+        background: #4ec274;
+        color: white;
+        border-radius: 13px;
+        align-self: flex-end;
+        text-decoration: none;
+    }
+    #topsign:hover {
+        background-color: black;
+        color: #4Ec274;
+    }
+    #toplogin {
+        align-self: center;
+        text-decoration: none;
+        color: #4Ec274;
+    }
+    #toplogin:hover {
+        color: black;
+    }
+    .topimage {
+        position: relative;
+    }
+    .topimage img {
+        width: 100%;
+    }
+    .topimage .content {
+        position: absolute;
+        top: 0;
+        height: 400px;
+        width: 98%;
+        padding: 10px;
+        top: 35%;
+        transform: translate(0, -40%);
+        text-align: center;
+    }
+    .topimage h3 {
+        margin: 12px;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 5px black;
+    }
+    .topimage p {
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+    .topimage a {
+        margin: 50px 15px;
+        width: 1%;
+        padding: 10px;
+        background-color: #4EC274;
+        color: black;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    .lastone {
+        height: 145px;
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+    .lastone:hover {
+        background-color: rgb(164, 226, 170);
+    }
+    .footertabs {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        background-color: #4EC274;
+    }
+    .footertabs a {
+        margin-top: 4px;
+        padding: 9px 0;
+        line-height: 2px;
+        font-size: 0.75rem;
+        color: darkgreen;
+        text-decoration: none;
+    }
+    .footertabs a:hover {
+        color: white;
+    }
+    h1 {
+        font-size: 19px;
+        margin: 4px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 0.8rem;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #heading {
+        background: white;
+        padding: 5px;
+        height: 95px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headtabs {
+        font-size: 0.687rem;
+        height: 40px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: top;
+    }
+    .headtabs a {
+        border: green;
+        color: white;
+        background-color: #4Ec274;
+        margin: 18px 2px;
+        padding: 4px 13px;
+        border-style: 2px solid;
+        border-radius: 1.4rem;
+        text-decoration: none;
+    }
+    .headtabs a:hover {
+        background-color: black;
+        color: #4Ec274;
+        text-decoration: none;
+    }
+    .login {
+        font-size: 0.562rem;
+        display: flex;
+        align-self: flex-end;
+    }
+    #topsign {
+        margin: 0 4px;
+        padding: 5px;
+        background: #4ec274;
+        color: white;
+        border-radius: 10px;
+        align-self: flex-end;
+        text-decoration: none;
+    }
+    #topsign:hover {
+        background-color: black;
+        color: #4Ec274;
+    }
+    #toplogin {
+        align-self: center;
+        text-decoration: none;
+        color: #4Ec274;
+    }
+    #toplogin:hover {
+        color: black;
+    }
+    .topimage {
+        position: relative;
+    }
+    .topimage img {
+        width: 100%;
+    }
+    .topimage .content {
+        position: absolute;
+        top: 0;
+        height: 400px;
+        width: 98%;
+        padding: 10px;
+        top: 45%;
+        transform: translate(0, -40%);
+        text-align: center;
+    }
+    .topimage h3 {
+        margin: 12px;
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 5px black;
+    }
+    .topimage p {
+        margin-bottom: 10px;
+        font-size: 0.85rem;
+    }
+    .topimage a {
+        margin: 15px 15px;
+        width: 1%;
+        padding: 8px;
+        background-color: #4EC274;
+        color: black;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    .lastone {
+        height: 150px;
+        padding: 6px;
+        margin-bottom: 4px;
+    }
+    .lastone:hover {
+        background-color: rgb(164, 226, 170);
+    }
+    .footertabs {
+        width: 100%;
+        height: 125px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        background-color: #4EC274;
+    }
+    .footertabs a {
+        margin-top: 3px;
+        padding: 8px 0;
+        line-height: 2px;
+        font-size: 0.75rem;
+        color: darkgreen;
+        text-decoration: none;
+    }
+    .footertabs a:hover {
+        color: white;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin: 1px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 0.9rem;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #heading {
+        background: white;
+        padding: 3px;
+        height: 215px;
+        margin-bottom: 1.2px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .headtabs {
+        font-size: 0.80rem;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .headtabs a {
+        border: green;
+        color: white;
+        background-color: #4Ec274;
+        width: 95px;
+        padding: 2px 65px 2px 65px;
+        border-style: 2px solid;
+        border-radius: 0.4rem;
+        margin: 2.6px;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+    }
+    .headtabs a:hover {
+        background-color: black;
+        color: #4Ec274;
+    }
+    .login {
+        font-size: 0.75em;
+        display: flex;
+        align-self: flex-end;
+        width: 20%;
+        margin: 0 1px 0 2px;
+    }
+    #topsign {
+        padding: 5px;
+        background: #4ec274;
+        color: white;
+        border-radius: 12px;
+        align-self: flex-end;
+        text-decoration: none;
+    }
+    #topsign:hover {
+        background-color: black;
+        color: #4Ec274;
+    }
+    #toplogin {
+        align-self: center;
+        text-decoration: none;
+        color: #4Ec274;
+    }
+    #toplogin:hover {
+        color: black;
+    }
+    .topimage {
+        position: relative;
+    }
+    .topimage img {
+        width: 100%;
+    }
+    .topimage .content {
+        position: absolute;
+        top: 0;
+        right: 25%;
+        height: 150px;
+        width: 50%;
+        padding: 10px;
+        top: 30%;
+        transform: translate(0, -40%);
+        text-align: center;
+    }
+    .topimage h3 {
+        margin: 12px;
+        font-size: 1rem;
+        text-shadow: 2px 2px 5px green;
+    }
+    .topimage p {
+        margin-bottom: 5px;
+        font-size: 0.75rem;
+        text-shadow: 2px 2px 5px white;
+    }
+    .topimage a {
+        margin: 15px 15px;
+        width: 0.7%;
+        padding: 5px;
+        background-color: #4EC274;
+        color: black;
+        font-size: 0.75rem;
+        text-decoration: none;
+    }
+    .lastone {
+        height: 145px;
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+    .lastone:hover {
+        background-color: rgb(164, 226, 170);
+    }
+    .footertabs {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        background-color: #4EC274;
+    }
+    .footertabs a {
+        margin-top: 5px;
+        padding: 4.68px 0;
+        line-height: 1.3px;
+        font-size: 0.5rem;
+        color: darkgreen;
+        text-decoration: none;
+    }
+    .footertabs a:hover {
+        color: white;
+    }
+    h1 {
+        font-size: 1.35rem;
+        margin: 2px 0 5px 0;
+        font-weight: bold;
+    }
+    p {
+        font-size: 0.75rem;
+        margin: 1.3px;
+    }
+}
